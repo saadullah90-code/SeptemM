@@ -55,13 +55,13 @@ export const expertise = [
   {
     id: 6,
     title: "Pre to Post Production service",
-    cover: "https://files.oaiusercontent.com/file-J3ABu7iVikd3veRNq4ggHj?se=2025-03-22T18%3A46%3A39Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D44d735d0-85d2-4bb7-8de5-5cb8b3708bc3.webp&sig=5w9cP7cuf2y3MiR8%2BCBEsc/KZKG/KJIgKCPQAY5BDrQ%3D",
+    cover: "https://www.adorama.com/alc/wp-content/uploads/2018/03/shutterstock_226081837.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 7,
     title: "Product Shoots",
-    cover: "https://files.oaiusercontent.com/file-UsWPDrnzLa98rYntercxMN?se=2025-03-22T18%3A49%3A22Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D13156e36-ba24-4b68-8c39-0ac641d40c0b.webp&sig=XaUcGpfvoaviNeIy8P0vIWm%2Bo%2B/1qgGBqbk0E87LKdM%3D",
+    cover: "https://5.imimg.com/data5/QE/YA/AR/SELLER-101941288/product-photo-shoot-services-without-model-500x500.jpg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
