@@ -23,69 +23,76 @@ const Hero = () => {
   useEffect(() => {
     if (textRef.current) {
       let splitText = new SplitType(textRef.current, { types: "chars, words, lines" });
-
+  
       gsap.set(textRef.current, { perspective: 400 });
-
-      // Characters Animation
-      gsap.from(splitText.chars, {
-        duration: 1,
-        scale: 3,
-        autoAlpha: 0,
-        rotationX: -180,
-        transformOrigin: "100% 50%",
-        ease: "back",
-        stagger: 0.02,
-        scrollTrigger: {
-          trigger: textRef.current,
-          start: "top 80%",
-          toggleActions: "play none none none",
-        },
+  
+      let mm = gsap.matchMedia(); // Responsive animations ke liye
+  
+      // **Large Screens (Desktops)**
+      mm.add("(min-width: 1025px)", () => {
+        gsap.from(splitText.chars, {
+          duration: 1,
+          scale: 3,
+          autoAlpha: 0,
+          rotationX: -180,
+          transformOrigin: "100% 50%",
+          ease: "back",
+          stagger: 0.02,
+          scrollTrigger: {
+            trigger: textRef.current,
+            start: "top 80%",
+            toggleActions: "play none none none",
+          },
+        });
+  
+        gsap.to(textRef.current, {
+          rotation: 2,
+          skewX: 5,
+          duration: 2,
+          ease: "sine.inOut",
+          repeat: -1,
+          yoyo: true,
+          scrollTrigger: {
+            trigger: textRef.current,
+            start: "top 60%",
+            toggleActions: "play none none none",
+          },
+        });
       });
-
-      // Words Animation
-      gsap.from(splitText.words, {
-        duration: 1.2,
-        opacity: 0,
-        y: 40,
-        ease: "power3.out",
-        stagger: 0.05,
-        scrollTrigger: {
-          trigger: textRef.current,
-          start: "top 85%",
-          toggleActions: "play none none none",
-        },
+  
+      // **Small Screens (Tablets & Mobiles)**
+      mm.add("(max-width: 1024px)", () => {
+        gsap.from(splitText.chars, {
+          duration: 1,
+          scale: 1.5, // 👈 Scale kam ki taake layout distort na ho
+          autoAlpha: 0,
+          rotationX: -90, // 👈 Mobile pe halka animation rakha
+          transformOrigin: "50% 50%",
+          ease: "back",
+          stagger: 0.03,
+          scrollTrigger: {
+            trigger: textRef.current,
+            start: "top 85%",
+            toggleActions: "play none none none",
+          },
+        });
+  
+        gsap.to(textRef.current, {
+          rotation: 1, // 👈 Mobile pe halka rotation
+          skewX: 2, // 👈 No harsh skewing
+          duration: 2.5,
+          ease: "sine.inOut",
+          repeat: -1,
+          yoyo: true,
+          scrollTrigger: {
+            trigger: textRef.current,
+            start: "top 70%",
+            toggleActions: "play none none none",
+          },
+        });
       });
-
-      // Lines Animation
-      gsap.from(splitText.lines, {
-        duration: 1.5,
-        opacity: 0,
-        x: -80,
-        ease: "expo.out",
-        stagger: 0.1,
-        scrollTrigger: {
-          trigger: textRef.current,
-          start: "top 90%",
-          toggleActions: "play none none none",
-        },
-      });
-
-      // ✨ Smooth Waving Effect ✨
-      gsap.to(textRef.current, {
-        rotation: 2,
-        skewX: 5,
-        duration: 2,
-        ease: "sine.inOut",
-        repeat: -1,
-        yoyo: true,
-        scrollTrigger: {
-          trigger: textRef.current,
-          start: "top 60%",
-          toggleActions: "play none none none",
-        },
-      });
-
-      // 🚀 Fan Effect for Emojis Inside <span>, <strong>, <em>
+  
+      // **Fan Effect for Emojis**
       gsap.to(".emoji", {
         rotation: 360,
         duration: 2,
@@ -94,6 +101,7 @@ const Hero = () => {
       });
     }
   }, []);
+  
   
   return (
     <>
