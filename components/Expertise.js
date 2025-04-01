@@ -16,12 +16,21 @@ export default function Expertise() {
   const cardParagraphRefs = useRef([]);
 
   useEffect(() => {
-    // Your existing GSAP animations remain exactly the same
     if (typeof window !== "undefined") {
+      document.body.style.overflowX = "hidden"; // Ensure no horizontal scroll
+
       const ctx = gsap.context(() => {
-        gsap.from(textRef.current, {
-          opacity: 0,
-          scale: 0.5,
+        gsap.set(
+          [
+            textRef.current,
+            ...cardHeadingRefs.current,
+            ...cardParagraphRefs.current,
+          ],
+          { opacity: 0 }
+        );
+
+        gsap.to(textRef.current, {
+          opacity: 1,
           duration: 1.5,
           scrollTrigger: {
             trigger: textRef.current,
@@ -37,22 +46,18 @@ export default function Expertise() {
           gsap.fromTo(
             card,
             {
+              x: index % 2 === 0 ? "-5vw" : "5vw", // 🔥 Fix: Reduce movement to avoid overflow
               opacity: 0,
-              scale: 0.8,
-              x: index % 2 === 0 ? -200 : 200,
-              y: 100,
             },
             {
+              x: "0vw",
               opacity: 1,
-              scale: 1,
-              x: 0,
-              y: 0,
-              duration: 1.5,
+              duration: 1.2,
               ease: "power2.out",
               scrollTrigger: {
                 trigger: card,
-                start: "top 90%",
-                end: "top 50%",
+                start: "top 85%",
+                end: "top 55%",
                 scrub: true,
               },
             }
@@ -62,13 +67,10 @@ export default function Expertise() {
         cardHeadingRefs.current.forEach((heading, index) => {
           if (!heading || !cardParagraphRefs.current[index]) return;
 
-          gsap.set([heading, cardParagraphRefs.current[index]], { x: -400, opacity: 0 });
-
           gsap.to([heading, cardParagraphRefs.current[index]], {
             opacity: 1,
-            x: 0,
-            duration: 1.5,
-            stagger: 0.3,
+            duration: 1.2,
+            stagger: 0.2,
             ease: "power3.out",
             scrollTrigger: {
               trigger: heading,
@@ -78,7 +80,6 @@ export default function Expertise() {
             },
           });
         });
-
       }, contentRef);
 
       return () => ctx.revert();
@@ -86,47 +87,56 @@ export default function Expertise() {
   }, []);
 
   return (
-    <div className="expertise-section py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-      {/* Title Section */}
-      <div className="title-container mb-12 md:mb-20 text-center">
-        <h1 ref={textRef} className="title text-3xl sm:text-4xl md:text-5xl font-bold">
-          Our Expertise
-        </h1>
-      </div>
+    <section className="expertise-section w-screen overflow-x-hidden py-16 px-4 md:px-8 lg:px-12 bg-white relative">
+      <div className="max-w-screen-xl mx-auto">
+        <div ref={textRef} className="title items-center justify-center">
+          <h1 className="">
+            Our Expertise
+          </h1>
+          
+        </div>
 
-      {/* Card & Text Section - Fixed layout for small screens */}
-      <div ref={contentRef} className="content-container space-y-16 sm:space-y-20 md:space-y-24">
-        {expertise.map((item, index) => (
-          <div 
-            key={item.id} 
-            className="expertise-item flex flex-col md:flex-row gap-8 md:gap-12 items-stretch"
-          >
-            {/* Left Side Card - Fixed for mobile */}
-            <div 
-              ref={(el) => (cardsRef.current[index] = el)} 
-              className="card-container w-full md:w-1/2 min-h-[250px] sm:min-h-[300px] md:h-auto"
+        <div ref={contentRef} className="content-container w-full space-y-24">
+          {expertise.map((item, index) => (
+            <div
+              key={item.id}
+              className={`expertise-item flex flex-col md:flex-row ${
+                index % 2 !== 0 ? "md:flex-row-reverse" : ""
+              } gap-8 md:gap-12 w-full min-h-[300px] items-center`}
             >
-              <Card data={item} caption="Learn More" className="h-full w-full" />
-            </div>
+              {/* Image/Card Section */}
+              <div
+                ref={(el) => (cardsRef.current[index] = el)}
+                className="card-container w-full md:w-1/2 h-[300px] md:h-[400px] relative"
+              >
+                <div className="w-full h-full bg-gray-100 rounded-xl flex items-center justify-center overflow-hidden">
+                  <Card data={item} caption="Learn More" className="h-full w-full object-cover" />
+                </div>
+              </div>
 
-            {/* Right Side Text - Fixed for mobile */}
-            <div className="text-container w-full md:w-1/2 flex flex-col justify-center">
-              <h2 
-                ref={(el) => (cardHeadingRefs.current[index] = el)}
-                className="item-title text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4"
-              >
-                {item.title}
-              </h2>
-              <p 
-                ref={(el) => (cardParagraphRefs.current[index] = el)}
-                className="item-description text-base sm:text-lg text-gray-600"
-              >
-                {item.description}
-              </p>
+              {/* Text Section */}
+              <div className="text-container w-full md:w-1/2 flex flex-col justify-center text-left">
+                <h2
+                  ref={(el) => (cardHeadingRefs.current[index] = el)}
+                  className="item-title text-left text-2xl md:text-3xl font-bold mb-4 text-gray-900 opacity-0"
+                >
+                  {item.title}
+                </h2>
+                <p
+                  ref={(el) => (cardParagraphRefs.current[index] = el)}
+                  className="item-description  text-lg text-gray-600 leading-relaxed opacity-0"
+                >
+                         <div className="item-description text-lg text-gray-600 leading-relaxed opacity-0">
+                {item.desc.map((descItem, descIndex) => (
+                  <p key={descIndex}>{descItem.text}</p>
+                ))}
+              </div>
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

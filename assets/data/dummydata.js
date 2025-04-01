@@ -21,56 +21,56 @@ export const home = [
     title: "Customer satisfaction is our top priority",
   },
 ]
-export const expertise = [
-  {
-    id: 1,
-    title: "Web Design & Development",
-    cover: "https://i.pinimg.com/736x/4f/7a/5a/4f7a5ab07ca73f801a77739736414ebc.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
-  },
-  {
-    id: 2,
-    title: "Social Media Management",
-    cover: "https://i.pinimg.com/736x/d7/b5/ab/d7b5abf3547742aad639c6accd797e33.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
-  },
-  {
-    id: 3,
-    title: "Shopify Store Management & Development",
-    cover: "https://i.pinimg.com/736x/da/59/65/da5965e74099ff7df078d6c0fec9c595.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
-  },
-  {
-    id: 4,
-    title: "Video Editing",
-    cover: "https://i.pinimg.com/736x/fb/28/a8/fb28a8c28e24490690b1ecd16dbb03e5.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
-  },
-  {
-    id: 5,
-    title: "Graphic Designing ",
-    cover: "https://i.pinimg.com/736x/01/1c/4e/011c4e3cee4c1520637e69c12a438b63.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
-  },
-  {
-    id: 6,
-    title: "Pre to Post Production service",
-    cover: "https://www.adorama.com/alc/wp-content/uploads/2018/03/shutterstock_226081837.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
-  },
-  {
-    id: 7,
-    title: "Product Shoots",
-    cover: "https://5.imimg.com/data5/QE/YA/AR/SELLER-101941288/product-photo-shoot-services-without-model-500x500.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
-  },
-  {
-    id: 8,
-    title: "Branding & Creative Services",
-    cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
-  },
-]
+  export const expertise = [
+    {
+      id: 1,
+      title: "Web Design & Development",
+      cover: "https://i.pinimg.com/736x/4f/7a/5a/4f7a5ab07ca73f801a77739736414ebc.jpg",
+      desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    },
+    {
+      id: 2,
+      title: "Social Media Management",
+      cover: "https://i.pinimg.com/736x/d7/b5/ab/d7b5abf3547742aad639c6accd797e33.jpg",
+      desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    },
+    {
+      id: 3,
+      title: "Shopify Store Management & Development",
+      cover: "https://i.pinimg.com/736x/da/59/65/da5965e74099ff7df078d6c0fec9c595.jpg",
+      desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    },
+    {
+      id: 4,
+      title: "Video Editing",
+      cover: "https://i.pinimg.com/736x/fb/28/a8/fb28a8c28e24490690b1ecd16dbb03e5.jpg",
+      desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    },
+    {
+      id: 5,
+      title: "Graphic Designing ",
+      cover: "https://i.pinimg.com/736x/01/1c/4e/011c4e3cee4c1520637e69c12a438b63.jpg",
+      desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    },
+    {
+      id: 6,
+      title: "Pre to Post Production service",
+      cover: "https://www.adorama.com/alc/wp-content/uploads/2018/03/shutterstock_226081837.jpg",
+      desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    },
+    {
+      id: 7,
+      title: "Product Shoots",
+      cover: "https://5.imimg.com/data5/QE/YA/AR/SELLER-101941288/product-photo-shoot-services-without-model-500x500.jpg",
+      desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    },
+    {
+      id: 8,
+      title: "Branding & Creative Services",
+      cover: "../images/e4.jpg",
+      desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    },
+  ]
 export const testimonial = [
   {
     id: 1,
@@ -169,7 +169,7 @@ export const blogdata = [
   {
     id: 1,
     title: "Elevating Men's Fashion & Accessories",
-    cover: "https://files.oaiusercontent.com/file-FTFLdJMQZiPnmJppTAGQ5R?se=2025-03-22T17%3A28%3A15Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D511db8a6-80a7-4a9d-b2c1-d53421d6b9d1.webp&sig=kgzKnVsPTBNQeqUAIBhQIVDNXq5uTDOEtA5VNHvolvc%3D",
+    cover: "../images/tbc.png",
     category: "Business",
     date: "Dec 15, 2024",
     desc: [{ text: "AI Innovations" }, { text: "Future of AI" }],
@@ -178,7 +178,7 @@ export const blogdata = [
   {
     id: 2,
     title: "Premium Men's Fashion for Every Occasion",
-    cover: "https://files.oaiusercontent.com/file-6C3Ch7uTZQjLbbFzrkabxt?se=2025-03-22T19%3A59%3A40Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Ddfbdee70-4d5e-43a1-8e0f-0d7e653658b0.webp&sig=MA%2BwL5gEp7kYVZLeIGMjLWLJhl4FofbnVXSKfSkoUvk%3D",
+    cover: "../images/meritime.png",
     category: "Business",
     date: "April 10, 2025",
     desc: [{ text: "Ecom Growth" }, { text: "Dropshipping Insights" }],
@@ -187,7 +187,7 @@ export const blogdata = [
   {
     id: 3,
     title: "Tech & Accessories for the Modern Lifestyle",
-    cover: "https://files.oaiusercontent.com/file-P4f9SWh9JsMgkH5nQozghc?se=2025-03-22T20%3A02%3A57Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dab32ecbb-2b9f-448c-b80a-ef5d8911e027.webp&sig=nE/bw%2B9%2BSyGc%2Bss4QxzKUEZsvmkzv3MXEnkRSWreil0%3D",
+    cover: "../images/clicknpick.png",
     category: "Development",
     date: "May 15, 2025",
     desc: [{ text: "React, Next.js" }, { text: "Best Coding Practices" }],
@@ -196,7 +196,7 @@ export const blogdata = [
   {
     id: 4,
     title: "Marketing Strategies in 2025",
-    cover: "/images/marketing.jpg",
+    cover: "../images/marketing.jpg",
     category: "Marketing",
     date: "June 5, 2025",
     desc: [{ text: "SEO Trends" }, { text: "Ads Strategies" }],
