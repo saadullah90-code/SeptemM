@@ -13,14 +13,14 @@ export const Card = ({ data, caption, show, path }) => {
       </div>
       <div className="card-details">
         {/* Dynamic Redirect */}
-        <Link href={blogPath} className="title-link">
-          <TitleSm title={data.title} />
-        </Link>
+<TitleSm title={data.title} />
+
 
         {caption && (
-          <Link href={blogPath} className="caption-link">
-            {caption} <HiOutlineArrowRight className="link-icon" />
-          </Link>
+    <div className="caption-link">
+  {caption} 
+</div>
+
         )}
 
         <div className="flex">

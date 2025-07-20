@@ -30,7 +30,7 @@ const Footer = () => {
                 <Link href='/'>Our team</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href='/'>Our Clients</Link>
               </li>
               <li>
                 <Link href='/'>Blog</Link>
@@ -85,13 +85,13 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© SEPTEM MEDIA. ALL RIGHTS RESERVED.</span>
             </div>
-            <div className='connect'>
+            {/* <div className='connect'>
               <span>GORKCODER COMPANY</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

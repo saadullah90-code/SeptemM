@@ -11,11 +11,11 @@ const ShowCase = () => {
       <section className='showcase'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Selected cases' />
+            <Title title='OUR CLIENTS' />
           </div>
           <div className='hero-content grid-3 py'>
             {showcase.map((item) => (
-              <Card data={item} key={item.id} />
+              <Card data={item} key={item.id} caption={item.catgeory} />
             ))}
           </div>
           {/* <div className='card links'>

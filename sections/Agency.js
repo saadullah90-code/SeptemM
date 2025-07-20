@@ -18,20 +18,7 @@ const Agency = () => {
             <div className='left w-60 py'>
               <TitleSm title='Welcome Message' />
               <p className='misson-p'>On behalf of the entire team at As Septem Media, I'd like to
-extend a very warm welcome!</p> <p className='desc-p'>I'm Ay Jay, the CEO here, and
-I've had the pleasure of leading this talented group of
-filmmakers for the past ten years. During that time, I've seen
-our team grow tremendously, not only in size but also in
-expertise and creativity. We've had the opportunity to work
-with a diverse range of clients on a variety of projects, and
-each experience has helped us hone our skills and refine our
-approach to video production.
-For the past decade, we've honed our skills and expertise in a
-wide range of video production and post-production
-services, from product demos to heart-warming
-documentaries. We believe in fostering a close, collaborative
-partnership with our clients, ensuring every step of the
-process is tailored to your specific needs and goals.</p>
+extend a very warm welcome!</p> <p className='desc-p'>At Septem Media & Studio, we don’t just build brands — we bring them to life. Based in Lahore, Pakistan, we are a full-service creative agency and production house driven by storytelling, design, and results. From social media management to full-scale film production, our diverse team turns ideas into powerful digital experiences. Whether you're a startup, fashion label, or enterprise, we tailor creative solutions that make an impact.</p>
               <div className='grid-3'>
                 <div className='box'>
                   <h1 className='indigo'>10+</h1>
@@ -59,14 +46,9 @@ process is tailored to your specific needs and goals.</p>
             <div className='right w-60 ml'>
               <TitleSm title='Our mission & vision' />
               <br />
-              <p className='misson-p'>To be the leading provider of innovative and impactful video
-solutions, shaping the future of storytelling and marketing
-through the power of visual and social media.</p>
+              <p className='misson-p'>To become Pakistan’s leading creative and production agency, crafting timeless digital experiences and setting new standards in media, marketing, and storytelling.</p>
 <br></br>
-<p className='misson-p'>To empower our clients with exceptional video production,
-post-production, and marketing services in transforming
-their visions into captivating stories that connect, engage,
-inspire, and sell.</p>
+<p className='misson-p'>To empower brands with bold visuals, strategic storytelling, and data-driven digital solutions. We aim to be the creative force behind brands that want to connect, engage, and grow.</p>
             </div>
           </div>
         </div>

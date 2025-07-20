@@ -18,7 +18,7 @@ export default function Expertise() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       document.body.style.overflowX = "hidden"; // Ensure no horizontal scroll
-
+  
       const ctx = gsap.context(() => {
         gsap.set(
           [
@@ -28,7 +28,7 @@ export default function Expertise() {
           ],
           { opacity: 0 }
         );
-
+  
         gsap.to(textRef.current, {
           opacity: 1,
           duration: 1.5,
@@ -39,19 +39,21 @@ export default function Expertise() {
             scrub: true,
           },
         });
-
+  
         cardsRef.current.forEach((card, index) => {
           if (!card) return;
-
+  
           gsap.fromTo(
             card,
             {
-              x: index % 2 === 0 ? "-5vw" : "5vw", // 🔥 Fix: Reduce movement to avoid overflow
+              x: index % 2 === 0 ? "-2vw" : "2vw", // Further reduce horizontal movement
               opacity: 0,
+              rotation: index % 2 === 0 ? -10 : 10, // Starting rotation for a smoother spin effect
             },
             {
-              x: "0vw",
+              x: "0vw", // Ensure it stops at the center
               opacity: 1,
+              rotation: 0, // Smooth rotation back to normal position
               duration: 1.2,
               ease: "power2.out",
               scrollTrigger: {
@@ -63,10 +65,10 @@ export default function Expertise() {
             }
           );
         });
-
+  
         cardHeadingRefs.current.forEach((heading, index) => {
           if (!heading || !cardParagraphRefs.current[index]) return;
-
+  
           gsap.to([heading, cardParagraphRefs.current[index]], {
             opacity: 1,
             duration: 1.2,
@@ -81,62 +83,56 @@ export default function Expertise() {
           });
         });
       }, contentRef);
-
+  
       return () => ctx.revert();
     }
   }, []);
+  
 
   return (
-    <section className="expertise-section w-screen overflow-x-hidden py-16 px-4 md:px-8 lg:px-12 bg-white relative">
-      <div className="max-w-screen-xl mx-auto">
-        <div ref={textRef} className="title items-center justify-center">
-          <h1 className="">
-            Our Expertise
-          </h1>
-          
-        </div>
+<section className="expertise-section">
+  <div className="container">
+    <div ref={textRef} className="title">
+      <h1>Our Expertise</h1>
+    </div>
 
-        <div ref={contentRef} className="content-container w-full space-y-24">
-          {expertise.map((item, index) => (
-            <div
-              key={item.id}
-              className={`expertise-item flex flex-col md:flex-row ${
-                index % 2 !== 0 ? "md:flex-row-reverse" : ""
-              } gap-8 md:gap-12 w-full min-h-[300px] items-center`}
-            >
-              {/* Image/Card Section */}
-              <div
-                ref={(el) => (cardsRef.current[index] = el)}
-                className="card-container w-full md:w-1/2 h-[300px] md:h-[400px] relative"
-              >
-                <div className="w-full h-full bg-gray-100 rounded-xl flex items-center justify-center overflow-hidden">
-                  <Card data={item} caption="Learn More" className="h-full w-full object-cover" />
-                </div>
-              </div>
-
-              {/* Text Section */}
-              <div className="text-container w-full md:w-1/2 flex flex-col justify-center text-left">
-                <h2
-                  ref={(el) => (cardHeadingRefs.current[index] = el)}
-                  className="item-title text-left text-2xl md:text-3xl font-bold mb-4 text-gray-900 opacity-0"
-                >
-                  {item.title}
-                </h2>
-                <p
-                  ref={(el) => (cardParagraphRefs.current[index] = el)}
-                  className="item-description  text-lg text-gray-600 leading-relaxed opacity-0"
-                >
-                         <div className="item-description text-lg text-gray-600 leading-relaxed opacity-0">
-                {item.desc.map((descItem, descIndex) => (
-                  <p key={descIndex}>{descItem.text}</p>
-                ))}
-              </div>
-                </p>
-              </div>
+    <div ref={contentRef} className="content-container">
+      {expertise.map((item, index) => (
+        <div
+          key={item.id}
+          className={`expertise-item ${index % 2 !== 0 ? "reverse" : ""}`}
+        >
+          <div
+            ref={(el) => (cardsRef.current[index] = el)}
+            className="card-container"
+          >
+            <div className="card-inner">
+              <Card data={item} caption="Learn More" className="card-image" />
             </div>
-          ))}
+          </div>
+
+          <div className="text-container">
+            <h2
+              ref={(el) => (cardHeadingRefs.current[index] = el)}
+              className="item-title"
+            >
+              {item.title}
+            </h2>
+            <div
+              ref={(el) => (cardParagraphRefs.current[index] = el)}
+              className="item-description"
+            >
+              {item.desc.map((descItem, descIndex) => (
+                <p key={descIndex}>{descItem.text}</p>
+              ))}
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      ))}
+    </div>
+  </div>
+</section>
+
+
   );
 }
