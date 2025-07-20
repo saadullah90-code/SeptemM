@@ -106,25 +106,31 @@ const Hero = () => {
   
   return (
     <>
-      <section className='hero'>
-        <div className='container' class="split-text-container">
-          <TitleLogo title='SEPTEM MEDIA OFFICIAL' caption='' className='logobg' />
-          <div className="split-text-container">
-  <h1 className="hero-title">
-    <span className="text-part left">WE BUILD DIGITAL</span>
-    <span className="text-part right">EXPERIENCES</span>
+<section className="hero">
+  <div className="split-text-container">
+
+<div className="hero-logo">
+  <h1>
+    <span class="left-half">SEPTEM MEDIA</span>
+  </h1>
+  <h1>
+    <span class="right-half">OFFICIAL</span>
   </h1>
 </div>
 
-          
 
-          <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
-            <TitleSm title='DIGITAL MARKETING' />
-          </div>
-        </div>
-      </section>
+    <div className="split-text-container">
+      <h1 className="hero-title">WE BUILD DIGITAL EXPERIENCES</h1>
+    </div>
+
+    <div className="sub-heading">
+      <span>WEBSITES</span> <span>.</span>
+      <span>BRANDING</span> <span>.</span>
+      <span>DIGITAL MARKETING</span>
+    </div>
+
+  </div>
+</section>
       <section className='hero-sec'>
         <div className='container'>
         <div className="heading-title">
