@@ -9,7 +9,7 @@ const Agency = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='ABOUT AGENCY' /> <br />
+            <TitleSm title='' /> <br />
             <br />
             <Title title='The last digital agency you will ever need!' className='title-bg' />
           </div>
@@ -54,7 +54,7 @@ extend a very warm welcome!</p> <p className='desc-p'>At Septem Media & Studio, 
         </div>
       </section>
 
- 
+
       <br />
       <br />
       <br />

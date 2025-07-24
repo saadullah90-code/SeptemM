@@ -97,17 +97,33 @@ const BlogCard = () => {
           <div key={item.id} className="blog-card">
             <Card data={item} path="blogs" />
 
-            <div className="button-wrapper">
-              <Link href={item.customLink} passHref>
-                <button className="view-btn">
+            <div className="button-wrapper mt-4">
+              {item.customLink ? (
+                <button
+                  className="view-btn px-4 py-2 bg-black text-white rounded"
+                  onClick={() =>
+                    window.open(
+                      item.customLink.startsWith("http")
+                        ? item.customLink
+                        : `https://${item.customLink}`,
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                >
                   <span>View Project</span>
                 </button>
-              </Link>
+              ) : (
+                <Link href={`/blogs/${item.id}`}>
+                  <button className="view-btn px-4 py-2 bg-black text-white rounded">
+                    <span>View Project</span>
+                  </button>
+                </Link>
+              )}
             </div>
           </div>
         ))}
       </div>
-
       <style jsx>{`
         .blog-grid {
           display: grid;

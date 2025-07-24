@@ -69,33 +69,34 @@ export const home = [
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
+    name: "Ali Raza",
     cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "CEO, TechVerse Solutions",
+    desc: "Ali Raza founded TechVerse Solutions in 2015 and has since become one of Pakistan’s leading tech entrepreneurs. His mission is to empower local businesses through innovative digital tools.",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "Ayesha Khan",
     cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "Marketing Manager, PakDesign Studio",
+    desc: "Ayesha Khan is a passionate marketing expert known for launching successful campaigns across Pakistan. She brings together creativity and data to drive impactful results.",
   },
   {
     id: 3,
-    name: "Alexander Black",
+    name: "Usman Tariq",
     cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "CTO, InnoSoft Pvt Ltd",
+    desc: "Usman Tariq is a skilled technology leader who has developed cutting-edge software solutions for the education and healthcare sectors across Pakistan.",
   },
   {
     id: 4,
-    name: "Diana Green",
+    name: "Zainab Fatima",
     cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "Brand Strategist, DigitalHive",
+    desc: "Zainab Fatima specializes in brand strategy and digital storytelling. She helps startups build strong brand identities, especially those targeting the youth market.",
   },
 ]
+
 export const showcase = [
   {
   id: 1,
@@ -186,9 +187,9 @@ export const blogdata = [
    {
     id: 5,
     title: "Business Insider",
-    cover: "https://i.insider.com/6553623058cf5fbccb96016e?width=700",
+    cover: "https://cdn-1.webcatalog.io/catalog/insider-com/insider-com-icon-filled.png?v=1747615118192",
     category: "Short-form Documentary Production",
-    customLink: "", // 🔹 Default Blog Page
+    customLink: "https://www.youtube.com/watch?v=o9H_hUaINsA", // 🔹 Default Blog Page
   },
      {
     id: 6,
@@ -200,9 +201,9 @@ export const blogdata = [
      {
     id: 7,
     title: "BBC Urdu ",
-    cover: "https://upload.wikimedia.org/wikipedia/commons/0/0d/BBC_Urdu_logo.jpg",
+    cover: "../images/bbclogo.jpg",
     category: "Food Documentary Production",
-    customLink: "", // 🔹 Default Blog Page
+    customLink: "youtube.com/watch?si=t5XJAkKjTuLCVrWV&v=l6luGVax4NM&feature=youtu.be", // 🔹 Default Blog Page
   },
        {
     id: 8,
@@ -221,9 +222,9 @@ export const blogdata = [
        {
     id: 10,
     title: "UCP (Taakra'22) ",
-    cover: "https://upload.wikimedia.org/wikipedia/en/e/eb/University_of_Central_Punjab_%28logo%29.jpg",
+    cover: "../images/ucptakra.png",
     category: "Official Music Video Production",
-    customLink: "", // 🔹 Default Blog Page
+    customLink: "https://www.instagram.com/tv/CfCodpGKCfX/?igsh=YmJ0ZW5zdjZmZXI%3D", // 🔹 Default Blog Page
   }
 ];
 

@@ -5,7 +5,7 @@ import { brand } from "@/assets/data/dummydata"
 const Brand = () => {
   return (
     <>
-       <section className="brand">
+       {/* <section className="brand">
       <div className="container">
         <div className="heading-title">
           <Title title="WE ARE PROUD TO WORK WITH THESE COMPANIES" />
@@ -20,7 +20,7 @@ const Brand = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     </>
   )
 }

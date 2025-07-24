@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='Media' caption='Septem' className='logobg' />
+              {/* <TitleLogo title='Media' caption='Septem' className='logobg' /> */}
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
@@ -24,16 +24,16 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/agency'>About agency</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/team'>Our team</Link>
               </li>
               <li>
-                <Link href='/'>Our Clients</Link>
+                <Link href='/showcase'>Our Clients</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href='/Blog'>Projects</Link>
               </li>
               <li>
                 <Link href='/'>Demo design system</Link>
