@@ -249,7 +249,7 @@ export const teamdata = [
   },
   {
     id: 4,
-    title: "SAAD SIDDIQUI",
+    title: "Engr. SAAD SIDDIQUI",
     cover: "../images/saad.png",
     post: "Full Stack & Shopify Developer",
   },
