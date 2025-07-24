@@ -6,25 +6,27 @@ import React from "react"
 const ShowCase = () => {
   return (
     <>
-      <section className='showcase bg-top'>
-        <div className='container'>
-          <div className='heading-title'>
-            <TitleSm title='SHOWCASE' /> <br />
-            <br />
-            <Title title='Fresh ideas. Bold design. Smart realisation.' className='title-bg' />
-          </div>
-          <br />
-          <br />
-          <div className='grid-3'>
-            {showcase.map((item) => (
-              <Card data={item} key={item.id} caption={item.post} />
-            ))}
-          </div>
-          <div className='py btn'>
-            <button className='secondary-button'>View More</button>
-          </div>
-        </div>
-      </section>
+<section className='showcase'>
+  <div className='container'>
+    <div className='heading-title'>
+      <Title title='OUR CLIENTS' />
+    </div>
+    <div className='hero-content grid-3 py'>
+      {showcase.map((item) => (
+        <a
+          href={item.instagram}
+          target='_blank'
+          rel='noopener noreferrer'
+          key={item.id}
+          style={{ textDecoration: 'none', color: 'inherit' }} // Optional: remove underline and inherit text color
+        >
+          <Card data={item} caption={item.catgeory} />
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
     </>
   )
 }

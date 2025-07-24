@@ -120,7 +120,7 @@ const Hero = () => {
 
 
     <div className="split-text-container">
-      <h1 className="hero-title">WE BUILD DIGITAL EXPERIENCES</h1>
+      <h1 className="hero-title">MEDIA MEANS BUSINESS</h1>
     </div>
 
     <div className="sub-heading">
@@ -162,8 +162,10 @@ const Hero = () => {
       <Brand />
 
       <div className='text-center'>
-        <Title title='Latest news & articles' />
+        <Title title='OUR PROJECTS' />
+        
       </div>
+      <br></br>
       <BlogCard />
     </>
   )

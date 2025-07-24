@@ -98,52 +98,60 @@ export const testimonial = [
 ]
 export const showcase = [
   {
-    id: 1,
-    title: "Tabdeeli Deli ",
-    cover: "../images/5.jpg",
-    catgeory: "Political-Themed Cloud Kitchen (Branding, Marketing, Video Content)",
-  },
+  id: 1,
+  title: "Tabdeeli Deli",
+  cover: "../images/5.jpg",
+  catgeory: "Political-Themed Cloud Kitchen (Branding, Marketing, Video Content)",
+  instagram: "https://www.instagram.com/saucekoizzatdo/?igsh=MXBod2pocmM2bGtpcw%3D%3D#"
+},
   {
     id: 2,
     title: "Alif Farms ",
     catgeory: "Meat & Animal Sales (Reels, Marketing, Strategy)",
     cover: "../images/8.jpg",
+    instagram: "https://www.instagram.com/aliffarmspakistan?igsh=ZW8wbHExMm5zaHgy"
   },
   {
     id: 3,
     title: "The Brand Company (TBC) ",
     cover: "../images/3.jpg",
     catgeory: "Fashion Shoots, Marketing Campaigns & Video Ads",
+    instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
   },
   {
     id: 4,
     title: "Intex Pakistan ",
-    cover: "../images/s4.jpg",
+    cover: "../images/12.jpg",
     catgeory: "Social Media Management, Marketing, Shopify Store Development",
+    instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
   },
   {
     id: 5,
     title: "Skinology",
     cover: "../images/2.jpg",
     catgeory: "Social Media Management, Video Editing & Creative Assets	",
+    instagram: "https://www.instagram.com/skinologypk?igsh=MThqNWhxN2w5emo0cA=="
   },
   {
     id: 5,
     title: "Clik n Pick ",
     cover: "../images/4.jpg",
     catgeory: "Shopify Store Management, Graphics, Marketing & Social Media	",
+    instagram: "https://www.instagram.com/cliknpick_pk?igsh=MXFpMmp2MmZhY3lscQ=="
   },
    {
     id: 6,
     title: "Bisma Asif – Clinical Psychologist  ",
     cover: "../images/7.jpg",
     catgeory: "Digital Strategy, Content Creation & Brand Design	",
+    instagram: "https://www.instagram.com/bisma.clinicalpsychologist?igsh=bWpwNXNua3MxeW0w"
   },
    {
     id: 7,
     title: "Meritime",
     cover: "../images/6.jpg",
     catgeory: "Social Media Management, Pre-Launch Hype, Launch Campaign, Graphics & Video Editing	",
+    instagram: "https://www.instagram.com/meritimepk?igsh=MXExMHdja3lmMWk2ag=="
   },
 ]
 export const brand = [
@@ -173,40 +181,48 @@ export const brand = [
   },
 ]
 export const blogdata = [
-  {
-    id: 1,
-    title: "Elevating Men's Fashion & Accessories",
-    cover: "../images/tbc.png",
-    category: "Business",
-    date: "Dec 15, 2024",
-    desc: [{ text: "AI Innovations" }, { text: "Future of AI" }],
-    customLink: "https://tbcofficials.com/", // 🔹 Custom Project Link
+
+
+   {
+    id: 5,
+    title: "Business Insider",
+    cover: "https://i.insider.com/6553623058cf5fbccb96016e?width=700",
+    category: "Short-form Documentary Production",
+    customLink: "", // 🔹 Default Blog Page
   },
-  {
-    id: 2,
-    title: "Premium Men's Fashion for Every Occasion",
-    cover: "../images/meritime.png",
-    category: "Business",
-    date: "April 10, 2025",
-    desc: [{ text: "Ecom Growth" }, { text: "Dropshipping Insights" }],
-    customLink: "https://meritimepk.com/", // 🔹 Default Blog Page
-  },
-  {
-    id: 3,
-    title: "Tech & Accessories for the Modern Lifestyle",
-    cover: "../images/clicknpick.png",
-    category: "Development",
-    date: "May 15, 2025",
-    desc: [{ text: "React, Next.js" }, { text: "Best Coding Practices" }],
-    customLink: "https://cliknpick.com/", // 🔹 Custom Project Link
-  },
-  {
-    id: 4,
-    title: "Marketing Strategies in 2025",
+     {
+    id: 6,
+    title: "Vintage Works ",
     cover: "../images/marketing.jpg",
-    category: "Marketing",
-    date: "June 5, 2025",
-    desc: [{ text: "SEO Trends" }, { text: "Ads Strategies" }],
+    category: "Real Estate & Furniture Lifestyle Shoots",
+    customLink: "", // 🔹 Default Blog Page
+  },
+     {
+    id: 7,
+    title: "BBC Urdu ",
+    cover: "https://upload.wikimedia.org/wikipedia/commons/0/0d/BBC_Urdu_logo.jpg",
+    category: "Food Documentary Production",
+    customLink: "", // 🔹 Default Blog Page
+  },
+       {
+    id: 8,
+    title: "Rizzle App  ",
+    cover: "https://media.assettype.com/indulgexpress%2Fimport%2F2021%2F4%2F6%2Foriginal%2FRimixatoolforcreatingvideomashupslaunchedbyRizzle.jpg?w=480&auto=format%2Ccompress&fit=max",
+    category: "Fiction-based Short Series Production",
+    customLink: "", // 🔹 Default Blog Page
+  },
+       {
+    id: 9,
+    title: "DGR  ",
+    cover: "../images/marketing.jpg",
+    category: "Fashion Photography & Shoot Campaigns",
+    customLink: "", // 🔹 Default Blog Page
+  },
+       {
+    id: 10,
+    title: "UCP (Taakra'22) ",
+    cover: "https://upload.wikimedia.org/wikipedia/en/e/eb/University_of_Central_Punjab_%28logo%29.jpg",
+    category: "Official Music Video Production",
     customLink: "", // 🔹 Default Blog Page
   }
 ];
@@ -254,5 +270,37 @@ export const teamdata = [
     cover: "../images/afzal.png",
     post: "DOP",
   },
+  
  
-]
+];
+export const websiteProjects = [
+  {
+    id: 1,
+    title: "Ecommerce Store",
+    cover: "http://localhost:3000/images/3.jpg",
+    category: "website",
+    link: "https://tbcofficials.com/",
+  },
+  {
+    id: 2,
+    title: "Ecommerce Store",
+    cover: "http://localhost:3000/images/4.jpg",
+    category: "website",
+    link: "https://cliknpick.com/",
+  },
+    {
+    id: 3,
+    title: "Ecommerce Store",
+    cover: "http://localhost:3000/images/6.jpg",
+    category: "website",
+    link: "https://myportfolio.com",
+  },
+  {
+    id: 4,
+    title: "Ecommerce Store",
+    cover: "../images/12.jpg",
+    category: "website",
+    link: "https://intexpk.store/",
+  },
+];
+

@@ -8,23 +8,21 @@ import { HiOutlineArrowRight } from "react-icons/hi"
 const ShowCase = () => {
   return (
     <>
-      <section className='showcase'>
-        <div className='container'>
-          <div className='heading-title'>
-            <Title title='OUR CLIENTS' />
-          </div>
-          <div className='hero-content grid-3 py'>
-            {showcase.map((item) => (
-              <Card data={item} key={item.id} caption={item.catgeory} />
-            ))}
-          </div>
-          {/* <div className='card links'>
-            <Link href='/'>
-              VIEW ALL CASES <HiOutlineArrowRight className='link-icon' />
-            </Link>
-          </div> */}
-        </div>
-      </section>
+<section className='showcase'>
+  <div className='container'>
+    <div className='heading-title'>
+      <Title title='OUR CLIENTS' />
+    </div>
+    <div className='hero-content grid-3 py'>
+      {showcase.map((item) => (
+        <a href={item.instagram} target='_blank' rel='noopener noreferrer' key={item.id}>
+          <Card data={item} caption={item.catgeory} />
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
     </>
   )
 }
