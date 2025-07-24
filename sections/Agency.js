@@ -54,9 +54,7 @@ extend a very warm welcome!</p> <p className='desc-p'>At Septem Media & Studio, 
         </div>
       </section>
 
-      <Brand />
-      <Testimonial />
-      <Banner />
+ 
       <br />
       <br />
       <br />
