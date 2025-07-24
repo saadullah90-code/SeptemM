@@ -32,6 +32,9 @@ const Header = () => {
             <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
               Team
             </Link>
+            <Link href='/our-studio' className={activeLink == "/studio" ? "activeLink" : "none"}>
+              Our Studio
+            </Link>
             <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
               Services
             </Link>
@@ -45,9 +48,7 @@ const Header = () => {
              <Link href='/our-projects' className={activeLink == "/our-projects" ? "activeLink" : "none"}>
               Websites
             </Link>
-             <Link href='/our-studio' className={activeLink == "/studio" ? "activeLink" : "none"}>
-              Our Studio
-            </Link>
+
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
