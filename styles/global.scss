@@ -29,7 +29,7 @@ $xl-1: 40px;
 $md-1: 15px;
 $sm-1: 10px;
 $xll: 24px; // For span font size
-$green: #00FF00; // Example color
+$green: #f2ae1c; // Example color
 
 .sub-heading {
   display: flex;
@@ -674,7 +674,7 @@ footer {
 
 
 .highlight {
-  color: #00DC93;
+  color: #f2ae1c;
   font-family: serif;
 }
 
@@ -2557,5 +2557,25 @@ a:hover {
   }
   .projects-section .project-card h3 {
     font-size: 16px;
+  }
+}
+// ===========================================
+.logo {
+  max-height: 60px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo-img {
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  .logo-img {
+    max-height: 60px;
   }
 }

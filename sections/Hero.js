@@ -124,9 +124,9 @@ const Hero = () => {
     </div>
 
     <div className="sub-heading">
-      <span>WEBSITES</span> <span>.</span>
-      <span>BRANDING</span> <span>.</span>
-      <span>DIGITAL MARKETING</span>
+      <span>DESIGN</span> <span>.</span>
+      <span>SHOOTS</span> <span>.</span>
+      <span>DIGITAL </span>
     </div>
 
   </div>
@@ -134,13 +134,14 @@ const Hero = () => {
       <section className='hero-sec'>
         <div className='container'>
         <div className="heading-title">
-        <div id="quote" ref={textRef}>
-        From web development to brand shoots, <strong>we bring your vision to life with <span className="emoji">❀</span></strong> like
+        <div id="quote" ref={textRef}><span className="emoji">🎯 </span>
+      Smart Strategy <strong> Bold Creative<span className="emoji">🎨</span></strong>
+        <br></br>
         {/* <span className="code"> <span className="emoji">💨</span></span>, */}
-        <span className="code"> <span className="emoji">🌸</span></span> and
-        <span className="code"> <span className="emoji">🔶</span></span>. vision to life with creativity and precision
-        <a href="https://www.greensock.com" target="_blank"> No problem</a>.
-        Let's build, design, <em className="highlight"> Grow your brand together<span className="emoji">🔥</span></em>  
+        <span className="code"> <span className="emoji"> 🚀</span></span>Real Results
+        {/*  */}
+        
+        <em className="highlight"> Grow your brand together<span className="emoji">🔥</span></em>  
       </div>
     </div>
           <div className='hero-content grid-4'>

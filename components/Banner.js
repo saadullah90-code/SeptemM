@@ -110,10 +110,10 @@ const Banner = () => {
   <section className="banner-section">
   <div className="banner-container">
     <div className="banner-content">
-      <div className="banner-text">
+      {/* <div className="banner-text">
         <Title className="text-left" title="Ready to build something great?" />
         <TitleLogo title="Let's elevate your brand together." />
-      </div>
+      </div> */}
 
       <div className="counter-wrapper">
         <Counter target={120} label="Projects Completed" delay={0} />

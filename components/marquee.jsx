@@ -71,7 +71,7 @@ export default function ScrollingText() {
           lineHeight: '1em',
           margin: '0 30px 0 0',
           color: 'var(--color-surface-white)',
-        }}>Animate Anything...</h4>
+        }}>Websites that wow...</h4>
         <h4 style={{
           whiteSpace: 'nowrap',
           fontSize: '100px',
@@ -80,7 +80,7 @@ export default function ScrollingText() {
           lineHeight: '1em',
           margin: '0 30px 0 0',
           color: 'var(--color-surface-white)',
-        }}>Delivering silky-smooth performance</h4>
+        }}>Videos that vibe</h4>
         <h4 style={{
           whiteSpace: 'nowrap',
           fontSize: '100px',
@@ -89,7 +89,7 @@ export default function ScrollingText() {
           lineHeight: '1em',
           margin: '0 30px 0 0',
           color: 'var(--color-surface-white)',
-        }}>so you can focus on the fun stuff.</h4>
+        }}>Brands that stick.</h4>
         <h4 style={{
           whiteSpace: 'nowrap',
           fontSize: '100px',
@@ -98,7 +98,7 @@ export default function ScrollingText() {
           lineHeight: '1em',
           margin: '0 30px 0 0',
           color: 'var(--color-surface-white)',
-        }}>Animate Anything...</h4>
+        }}>Septem turns ideas into impact</h4>
         <h4 style={{
           whiteSpace: 'nowrap',
           fontSize: '100px',
@@ -107,7 +107,9 @@ export default function ScrollingText() {
           lineHeight: '1em',
           margin: '0 30px 0 0',
           color: 'var(--color-surface-white)',
-        }}>Delivering silky-smooth performance</h4>
+        }}>with
+style.
+</h4>
         <h4 style={{
           whiteSpace: 'nowrap',
           fontSize: '100px',
@@ -116,7 +118,7 @@ export default function ScrollingText() {
           lineHeight: '1em',
           margin: '0 30px 0 0',
           color: 'var(--color-surface-white)',
-        }}>so you can focus on the fun stuff.</h4>
+        }}>Websites that wow</h4>
       </div>
     </div>
   );

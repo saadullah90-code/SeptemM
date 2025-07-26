@@ -26,43 +26,49 @@ export const home = [
       id: 1,
       title: "Web Design & Development",
       cover: "../images/websiteDevelopment.jpg",
-      desc: [{ text: "Custom websites and eCommerce stores built to perform and impress." }],
+      desc: [{ text: "Lightning-fast websites and eCommerce experiences that convert and captivate." }],
     },
     {
       id: 2,
       title: "Social Media Management",
       cover: "../images/SocialMedia.jpg",
-      desc: [{ text: "From planning to posting, we manage your online presence across all major platforms." }],
+      desc: [{ text: "Content, strategy, consistency — done for you, done right." }],
     },
     {
       id: 3,
       title: "Shopify Store Management & Development",
       cover: "../images/ShopifyScreen.jpg",
-      desc: [{ text: "End-to-end Shopify solutions — from building sleek storefronts to managing daily operations and sales." }],
+      desc: [{ text: "From setup to sales, we design sleek, scalable Shopify stores built for growth." }],
     },
     {
       id: 4,
-      title: "Video Editing",
+      title: "Video Production",
       cover: "../images/VideoEditing.jpg",
-      desc: [{ text: "Professional post-production for ads, reels, short films, documentaries, and more." }],
+      desc: [{ text: "Reels, ads, documentaries, and short films — crafted frame by frame." }],
     },
     {
       id: 5,
-      title: "Graphic Designing ",
+      title: "Brand & Graphic Design ",
       cover: "../images/GraphicDesign.jpg",
-      desc: [{ text: "Creative visuals including logos, posters, branding kits, and social media designs." }],
+      desc: [{ text: "Logos, identities, and visuals that make your brand impossible to ignore." }],
     },
     {
       id: 6,
-      title: "Pre to Post Production service",
+      title: "End-to-End Production",
       cover: "../images/FilmSet.jpg",
-      desc: [{ text: "Film, documentary, and advertisement production — from ideation and shooting to final edit and delivery." }],
+      desc: [{ text: "From pre-visual to post-edit, we handle the full production pipeline" }],
     },
     {
       id: 7,
-      title: "Fashion / Brand / Product Shoots",
+      title: "Fashion & Product Shoots",
       cover: "../images/ProductShoot.jpg",
-      desc: [{ text: "High-end shoots tailored to your brand’s aesthetic — perfect for lookbooks, catalogues, and digital campaigns." }],
+      desc: [{ text: "Camera-ready content made to sell — bold, styled, and on-brand." }],
+    },
+    {
+      id: 8,
+      title: "Digital Marketing",
+      cover: "../images/ProductShoot.jpg",
+      desc: [{ text: "Performance-driven digital marketing campaigns boost visibility, clicks, and conversions through Social Media Marketing, SEO, Google Ads, and Email Marketing, leveraging a data-driven approach for measurable results." }],
     },
   
   ]
@@ -194,9 +200,9 @@ export const blogdata = [
      {
     id: 6,
     title: "Vintage Works ",
-    cover: "../images/marketing.jpg",
+    cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7-_6kGWotZeJsnTKBZqIB7rtQWE3zTEALMg&s",
     category: "Real Estate & Furniture Lifestyle Shoots",
-    customLink: "", // 🔹 Default Blog Page
+    customLink: "https://www.instagram.com/vintageworksofficial/?igsh=OGlpMmMxZWtveWJl#", // 🔹 Default Blog Page
   },
      {
     id: 7,
@@ -215,9 +221,9 @@ export const blogdata = [
        {
     id: 9,
     title: "DGR  ",
-    cover: "../images/marketing.jpg",
+    cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8m6S_7dLuT3qVwovKPV8c4vR6QdKTXyZCiA&s",
     category: "Fashion Photography & Shoot Campaigns",
-    customLink: "", // 🔹 Default Blog Page
+    customLink: "https://www.instagram.com/dgr.official/?igsh=cXQ4eGpteWs2cWZq#", // 🔹 Default Blog Page
   },
        {
     id: 10,
