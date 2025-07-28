@@ -111,11 +111,9 @@ const Hero = () => {
 
 <div className="hero-logo">
   <h1>
-    <span class="left-half">SEPTEM MEDIA</span>
+    <span className="left-half">SEPTEM&nbsp;</span>
+    <span className="right-half">MEDIA</span>
   </h1>
-  {/* <h1>
-    <span class="right-half">OFFICIAL</span>
-  </h1> */}
 </div>
 
 
@@ -134,15 +132,7 @@ const Hero = () => {
       <section className='hero-sec'>
         <div className='container'>
         <div className="heading-title">
-        <div id="quote" ref={textRef}><span className="emoji">🎯 </span>
-      Smart Strategy <strong> Bold Creative<span className="emoji">🎨</span></strong>
-        <br></br>
-        {/* <span className="code"> <span className="emoji">💨</span></span>, */}
-        <span className="code"> <span className="emoji"> 🚀</span></span>Real Results
-        {/*  */}
-        
-        <em className="highlight"> Grow your brand together<span className="emoji">🔥</span></em>  
-      </div>
+       
     </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
