@@ -107,7 +107,7 @@ export const showcase = [
   {
   id: 1,
   title: "Tabdeeli Deli",
-  cover: "../images/5.jpg",
+  cover: "../images/tab.jpg",
   catgeory: "Political-Themed Cloud Kitchen (Branding, Marketing, Video Content)",
   instagram: "https://www.instagram.com/saucekoizzatdo/?igsh=MXBod2pocmM2bGtpcw%3D%3D#"
 },
@@ -115,7 +115,7 @@ export const showcase = [
     id: 2,
     title: "Alif Farms ",
     catgeory: "Meat & Animal Sales (Reels, Marketing, Strategy)",
-    cover: "../images/8.jpg",
+    cover: "../images/farm.jpg",
     instagram: "https://www.instagram.com/aliffarmspakistan?igsh=ZW8wbHExMm5zaHgy"
   },
   {
@@ -135,14 +135,14 @@ export const showcase = [
   {
     id: 5,
     title: "Skinology",
-    cover: "../images/2.jpg",
+    cover: "../images/skin.jpg",
     catgeory: "Social Media Management, Video Editing & Creative Assets	",
     instagram: "https://www.instagram.com/skinologypk?igsh=MThqNWhxN2w5emo0cA=="
   },
   {
     id: 5,
     title: "Clik n Pick ",
-    cover: "../images/4.jpg",
+    cover: "../images/click.jpg",
     catgeory: "Shopify Store Management, Graphics, Marketing & Social Media	",
     instagram: "https://www.instagram.com/cliknpick_pk?igsh=MXFpMmp2MmZhY3lscQ=="
   },
@@ -156,7 +156,7 @@ export const showcase = [
    {
     id: 7,
     title: "Meritime",
-    cover: "../images/6.jpg",
+    cover: "../images/meri.jpg",
     catgeory: "Social Media Management, Pre-Launch Hype, Launch Campaign, Graphics & Video Editing	",
     instagram: "https://www.instagram.com/meritimepk?igsh=MXExMHdja3lmMWk2ag=="
   },
@@ -214,7 +214,7 @@ export const blogdata = [
        {
     id: 8,
     title: "Rizzle App  ",
-    cover: "https://media.assettype.com/indulgexpress%2Fimport%2F2021%2F4%2F6%2Foriginal%2FRimixatoolforcreatingvideomashupslaunchedbyRizzle.jpg?w=480&auto=format%2Ccompress&fit=max",
+    cover: "../images/rizzle.jpg",
     category: "Fiction-based Short Series Production",
     customLink: "", // 🔹 Default Blog Page
   },
