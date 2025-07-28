@@ -21,10 +21,10 @@ const Header = () => {
           <div className='logo'>
   <Link href='/'>
     <Image
-      src='/images/septem-logo2.jpg'  // ✅ start with /
+      src='/images/seplogo2.png'  // ✅ start with /
       alt='Media Septem Logo'
       width={180}
-      height={100}
+      height={80}
       className='logomin'
     />
   </Link>

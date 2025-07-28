@@ -17,9 +17,11 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>0306-0475488</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <a href="https://wa.me/923060475488" target="_blank" rel="noopener noreferrer">
+  <button className="button-primary">Contact Now</button>
+</a>
             </div>
             <ul>
               <h3>COMPANY</h3>
@@ -36,7 +38,7 @@ const Footer = () => {
                 <Link href='/Blog'>Projects</Link>
               </li>
               <li>
-                <Link href='/'>Demo design system</Link>
+                {/* <Link href='/'>Demo design system</Link> */}
               </li>
               <li>
                 <Link href='/'>Contact</Link>
