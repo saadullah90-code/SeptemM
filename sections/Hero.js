@@ -113,9 +113,9 @@ const Hero = () => {
   <h1>
     <span class="left-half">SEPTEM MEDIA</span>
   </h1>
-  <h1>
+  {/* <h1>
     <span class="right-half">OFFICIAL</span>
-  </h1>
+  </h1> */}
 </div>
 
 
