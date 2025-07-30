@@ -8,25 +8,26 @@ const Agency = () => {
     <>
       <section className='agency bg-top'>
         <div className='container'>
-          <div className='heading-title'>
-            <TitleSm title='' /> <br />
-            <br />
-            <Title title='The last digital agency you will ever need!' className='title-bg' />
+          <div className='heading-title'> 
+            <div className="title-wrapper">
+  <Title title="About Us" className="title-bg" />
+</div>
+
           </div>
 
           <div className='content flex1'>
-            <div className='left w-60 py'>
+            <div className='left w-60'>
               <TitleSm title='Welcome Message' />
               <p className='misson-p'>On behalf of the entire team at As Septem Media, I'd like to
 extend a very warm welcome!</p> <p className='desc-p'>At Septem Media & Studio, we don’t just build brands — we bring them to life. Based in Lahore, Pakistan, we are a full-service creative agency and production house driven by storytelling, design, and results. From social media management to full-scale film production, our diverse team turns ideas into powerful digital experiences. Whether you're a startup, fashion label, or enterprise, we tailor creative solutions that make an impact.</p>
               <div className='grid-3'>
                 <div className='box'>
-                  <h1 className='indigo'>10+</h1>
+                  <h1 className='indigo'>8+</h1>
                   <h3>Years of experience</h3>
                 </div>
                 <div className='box'>
-                  <h1 className='indigo'>50+</h1>
-                  <h3>Successful cases</h3>
+                  <h1 className='indigo'>120+</h1>
+                  <h3>Successful Projects</h3>
                 </div>
                 <div className='box'>
                   <h1 className='indigo'>12+</h1>

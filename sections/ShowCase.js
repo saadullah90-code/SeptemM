@@ -11,7 +11,7 @@ const ShowCase = () => {
     <div className='heading-title'>
       <Title title='OUR CLIENTS' />
     </div>
-    <div className='hero-content grid-3 py'>
+    <div className='hero-content grid-3'>
       {showcase.map((item) => (
         <a
           href={item.instagram}

@@ -9,11 +9,11 @@ const Services = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='SERVICES' /> <br />
+            {/* <TitleSm title='SERVICES' /> <br /> */}
             <br />
             <Title title='Unique technologies & modern approach' className='title-bg' />
           </div>
-          <div className='grid-2 py'>
+          <div className='grid-2 '>
             {expertise.map((item) => (
               <Card data={item} key={item.id} caption={item.post} show={true} />
             ))}

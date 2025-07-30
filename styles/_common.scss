@@ -31,9 +31,19 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+.title-wrapper {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center (optional) */
+  height: 100px;           /* Adjust as needed */
+  text-align: center;
+}
+
 .title-bg {
   font-size: 40px;
+  
 }
+
 .secondary-button,
 .button-primary {
   text-transform: capitalize;

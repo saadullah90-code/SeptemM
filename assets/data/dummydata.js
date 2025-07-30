@@ -67,7 +67,7 @@ export const home = [
     {
       id: 8,
       title: "Digital Marketing",
-      cover: "../images/ProductShoot.jpg",
+      cover: "../images/digital.jpeg",
       desc: [{ text: "Performance-driven digital marketing campaigns boost visibility, clicks, and conversions through Social Media Marketing, SEO, Google Ads, and Email Marketing, leveraging a data-driven approach for measurable results." }],
     },
   
@@ -243,7 +243,7 @@ export const teamdata = [
   },
   {
     id: 2,
-    title: "ASAD CHUDARY",
+    title: "ASAD CHOUDHRY",
     cover: "../images/asad.png",
     post: "Digital Marketer",
   },
@@ -298,7 +298,7 @@ export const websiteProjects = [
     {
     id: 3,
     title: "Ecommerce Store",
-    cover: "http://localhost:3000/images/6.jpg",
+    cover: "../images/meri.jpg",
     category: "website",
     link: "https://myportfolio.com",
   },

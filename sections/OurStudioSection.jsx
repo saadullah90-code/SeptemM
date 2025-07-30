@@ -2,12 +2,12 @@ import React from "react";
 
 const OurStudioSection = () => {
   return (
-    <section className="studio-section">
-      <div className="studio-container">
+    <section className="studio-section bg-top">
+      <div className="studio-container bg-top">
 
         {/* Colored Section Heading */}
         <div className="studio-intro">
-          <h5 className="gradient-heading">OUR STUDIO</h5>
+          {/* <h5 className="gradient-heading">OUR STUDIO</h5> */}
           <h1 className="gradient-heading">Where Creativity Meets Production</h1>
           <p className="studio-description">
             Welcome to Septem Studio — your creative playground in the heart of Model Town, Lahore. Designed for photographers, filmmakers, influencers, and content creators, our studio is a professional space built to meet the demands of modern production.
@@ -74,7 +74,7 @@ const OurStudioSection = () => {
 
           <div className="studio-right">
             <div className="image-wrapper">
-              <img src="/images/ayjay.png" alt="Septem Studio" />
+              <img src="/images/studio1.jpg" alt="Septem Studio" />
             </div>
           </div>
         </div>
@@ -83,28 +83,28 @@ const OurStudioSection = () => {
         <h2 className="studio-heading gradient-heading text-center">Our Studio Gallery</h2>
         <div className="studio-gallery">
           <div className="gallery-item">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipMl2iKKwqGiJvvJEMIG4NoxzSyhT4-Njsd5wPlk=s680-w680-h510-rw" alt="Studio Image 1" />
+            <img src="/images/studio2.jpg" alt="Studio Image 1" />
           </div>
           <div className="gallery-item">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipPz79Ym8jZ1SP88Tk1Ig40fuN5xsAXppwRCGIDi=s680-w680-h510-rw" alt="Studio Image 2" />
+            <img src="/images/studio3.jpg" alt="Studio Image 2" />
           </div>
           <div className="gallery-item">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipOB8Uvcw0vIKAnIYAb_QQCt5Keoh6U2Tiavseos=s680-w680-h510-rw" alt="Studio Image 3" />
+            <img src="/images/studio4.jpg" alt="Studio Image 3" />
           </div>
           <div className="gallery-item">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipOlWWM9eVXndyj2OuNEgtVL3z6-CBEvoho6X8VU=s680-w680-h510-rw" alt="Studio Image 4" />
+            <img src="/images/studio5.jpg" alt="Studio Image 4" />
           </div>
           <div className="gallery-item">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipMl2iKKwqGiJvvJEMIG4NoxzSyhT4-Njsd5wPlk=s680-w680-h510-rw" alt="Studio Image 5" />
+            <img src="/images/studio6.jpg" alt="Studio Image 5" />
           </div>
           <div className="gallery-item">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipPz79Ym8jZ1SP88Tk1Ig40fuN5xsAXppwRCGIDi=s680-w680-h510-rw" alt="Studio Image 6" />
+            <img src="/images/studio7.jpg" alt="Studio Image 6" />
           </div>
           <div className="gallery-item">
-            <img src="/images/gallery3.jpg" alt="Studio Image 7" />
+            <img src="/images/studio8.jpg" alt="Studio Image 7" />
           </div>
           <div className="gallery-item">
-            <img src="/images/gallery4.jpg" alt="Studio Image 8" />
+            <img src="/images/studio9.jpg" alt="Studio Image 8" />
           </div>
         </div>
 
