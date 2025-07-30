@@ -104,55 +104,48 @@ export const testimonial = [
 ]
 
 export const showcase = [
-  {
-  id: 1,
-  title: "Tabdeeli Deli",
-  cover: "../images/tab.jpg",
-  catgeory: "Political-Themed Cloud Kitchen (Branding, Marketing, Video Content)",
-  instagram: "https://www.instagram.com/saucekoizzatdo/?igsh=MXBod2pocmM2bGtpcw%3D%3D#"
-},
-  {
+    {
+    id: 1,
+    title: "The Brand Company (TBC) ",
+    cover: "../images/3.jpg",
+    catgeory: "Fashion Shoots, Marketing Campaigns & Video Ads",
+    instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
+  },
+    {
     id: 2,
     title: "Alif Farms ",
     catgeory: "Meat & Animal Sales (Reels, Marketing, Strategy)",
     cover: "../images/farm.jpg",
     instagram: "https://www.instagram.com/aliffarmspakistan?igsh=ZW8wbHExMm5zaHgy"
   },
-  {
+    {
     id: 3,
-    title: "The Brand Company (TBC) ",
-    cover: "../images/3.jpg",
-    catgeory: "Fashion Shoots, Marketing Campaigns & Video Ads",
-    instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
-  },
-  {
-    id: 4,
-    title: "Intex Pakistan ",
-    cover: "../images/12.jpg",
-    catgeory: "Social Media Management, Marketing, Shopify Store Development",
-    instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
-  },
-  {
-    id: 5,
     title: "Skinology",
     cover: "../images/skin.jpg",
     catgeory: "Social Media Management, Video Editing & Creative Assets	",
     instagram: "https://www.instagram.com/skinologypk?igsh=MThqNWhxN2w5emo0cA=="
   },
-  {
-    id: 5,
+    {
+    id: 4,
     title: "Clik n Pick ",
     cover: "../images/click.jpg",
     catgeory: "Shopify Store Management, Graphics, Marketing & Social Media	",
     instagram: "https://www.instagram.com/cliknpick_pk?igsh=MXFpMmp2MmZhY3lscQ=="
   },
-   {
-    id: 6,
+     {
+    id: 5,
     title: "Bisma Asif – Clinical Psychologist  ",
     cover: "../images/7.jpg",
     catgeory: "Digital Strategy, Content Creation & Brand Design	",
     instagram: "https://www.instagram.com/bisma.clinicalpsychologist?igsh=bWpwNXNua3MxeW0w"
   },
+  {
+  id: 6,
+  title: "Tabdeeli Deli",
+  cover: "../images/tab.jpg",
+  catgeory: "Political-Themed Cloud Kitchen (Branding, Marketing, Video Content)",
+  instagram: "https://www.instagram.com/saucekoizzatdo/?igsh=MXBod2pocmM2bGtpcw%3D%3D#"
+},
    {
     id: 7,
     title: "Meritime",
@@ -160,6 +153,24 @@ export const showcase = [
     catgeory: "Social Media Management, Pre-Launch Hype, Launch Campaign, Graphics & Video Editing	",
     instagram: "https://www.instagram.com/meritimepk?igsh=MXExMHdja3lmMWk2ag=="
   },
+  {
+    id: 8,
+    title: "Alif Farms ",
+    catgeory: "Meat & Animal Sales (Reels, Marketing, Strategy)",
+    cover: "../images/farm.jpg",
+    instagram: "https://www.instagram.com/aliffarmspakistan?igsh=ZW8wbHExMm5zaHgy"
+  },
+
+  {
+    id: 9,
+    title: "Intex Pakistan ",
+    cover: "../images/12.jpg",
+    catgeory: "Social Media Management, Marketing, Shopify Store Development",
+    instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
+  },
+
+
+
 ]
 export const brand = [
   {
@@ -284,14 +295,14 @@ export const websiteProjects = [
   {
     id: 1,
     title: "Ecommerce Store",
-    cover: "http://localhost:3000/images/3.jpg",
+    cover: "../images/3.jpg",
     category: "website",
     link: "https://tbcofficials.com/",
   },
   {
     id: 2,
     title: "Ecommerce Store",
-    cover: "http://localhost:3000/images/4.jpg",
+    cover: "../images/click.jpg",
     category: "website",
     link: "https://cliknpick.com/",
   },

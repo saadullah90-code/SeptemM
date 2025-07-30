@@ -13,7 +13,7 @@ const Footer = () => {
               {/* <TitleLogo title='Media' caption='Septem' className='logobg' /> */}
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                Questions? Reach us <br /> Monday – Friday from 9 am to 9 pm
               </span>
               <br />
               <br />

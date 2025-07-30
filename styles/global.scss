@@ -1679,12 +1679,66 @@ a:hover {
     padding: 0 10px;
   }
 }
-.changing-word {
-  display: inline-block;
-  color: #f2ae1c;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  will-change: opacity, transform;
+.hero-title-container {
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 40px;
 }
+
+.static-line,
+.changing-word {
+  display: block;
+}
+
+/* ===== Mobile First Styling ===== */
+.static-line {
+  font-size: 44px; /* ⬅️ Increased for mobile */
+}
+
+.changing-word {
+  font-size: 48px; /* ⬅️ Increased for mobile */
+  color: #f2ae1c;
+  min-height: 60px;
+  transition: all 0.3s ease;
+}
+
+/* ===== Desktop Styling ===== */
+@media (min-width: 768px) {
+  .static-line {
+    font-size: 60px;
+  }
+
+  .changing-word {
+    font-size: 64px;
+    min-height: 70px;
+  }
+}
+.static-part {
+  font-size: 46px; /* Bigger font on mobile */
+  font-weight: 700;
+  color: white;
+  display: inline-block;
+}
+
+/* Desktop version */
+@media (min-width: 768px) {
+  .static-part {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-logo h1 {
+    font-size: 60px; /* ✅ Increased from 48px to 60px */
+    -webkit-text-stroke: 1px #f2ae1c;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 4px;
+  }
+}
+
 
 
 
@@ -2178,4 +2232,7 @@ a:hover {
     }
   }
 }
+// ==============================
+
+
 
