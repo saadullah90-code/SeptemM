@@ -321,4 +321,31 @@ export const websiteProjects = [
     link: "https://intexpk.store/",
   },
 ];
+export const modelData = [
+  {
+    id: 1,
+    name: "Ayesha Khan",
+    height: "5'7\"",
+    age: 24,
+    city: "Lahore",
+    image: "https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTgwODY5MjM3ODM2MTYyMTM2/pakistans-15-most-popular-female-fashion-models.jpg",
+  },
+  {
+    id: 2,
+    name: "Fatima Rizvi",
+    height: "5'5\"",
+    age: 22,
+    city: "Karachi",
+    image: "https://deeya.co.uk/wp-content/uploads/2021/05/Picture1.png",
+  },
+  {
+    id: 3,
+    name: "Hira Shah",
+    height: "5'6\"",
+    age: 25,
+    city: "Islamabad",
+    image: "https://i.pinimg.com/236x/43/bb/e2/43bbe20a84b247860202bdead252370b.jpg",
+  },
+];
+
 
