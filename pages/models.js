@@ -6,13 +6,13 @@ const ModelsPage = () => {
     <section style={{ background: "#000", padding: "60px 20px", minHeight: "100vh" }}>
       <h2 style={{
         textAlign: "center",
-        fontSize: "32px",
+        fontSize: "42px",
         marginBottom: "40px",
         fontWeight: "bold",
         color: "#f2ae1c",
         fontFamily: "Poppins, sans-serif"
       }}>
-        Our Models
+        Models
       </h2>
 
       <div style={{

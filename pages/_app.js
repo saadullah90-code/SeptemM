@@ -1,18 +1,4 @@
-// import Layout from "@/components/common/Layout"
-// import "@/styles/main.scss"
-// import { SpeedInsights } from "@vercel/speed-insights/react";
 
-
-
-// export default function App({ Component, pageProps }) {
-//   return (
-//     <Layout>
-//       <Component {...pageProps} />
-//       <SpeedInsights debug />
-//     </Layout>
-   
-//   )
-// }
 import Layout from "@/components/common/Layout";
 import "@/styles/main.scss";
 import dynamic from "next/dynamic";

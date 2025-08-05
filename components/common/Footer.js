@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillYoutube, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 
 const Footer = () => {
   return (
@@ -37,51 +37,49 @@ const Footer = () => {
               <li>
                 <Link href='/Blog'>Projects</Link>
               </li>
-              <li>
-                {/* <Link href='/'>Demo design system</Link> */}
-              </li>
+
               <li>
                 <Link href='/'>Contact</Link>
               </li>
             </ul>
             <ul>
-              <h3>SERVICES</h3>
+              <h3>PROFILE</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+              <Link href="/our-studio">Our Studio</Link>
+
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+            <Link href="/models" >Models</Link>
+
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+            <Link href="/films" >Films</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+            <Link href="/services">Services</Link>
+
               </li>
             </ul>
             <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='/'>
-                    <BsFacebook size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillInstagram size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillLinkedin size={25} />
-                  </Link>
-                </li>
+            <Link href="https://www.facebook.com/share/1Byq6Ycdyx/" target="_blank">
+              <BsFacebook size={30} />
+            </Link>
+          </li>
+                    <li>
+            <Link href="https://www.instagram.com/septemmedia?igsh=eTk5cWp1ZDc2bGYw" target="_blank">
+              <AiFillInstagram size={35} />
+            </Link>
+          </li>
+          <li>
+            <Link href='https://youtube.com/@septemoriginal?si=rQ9OsMxvB0x9vLBf' target='_blank'>
+        <AiFillYoutube size={35} />
+      </Link>
+          </li>
+
+
               </div>
             </ul>
           </div>

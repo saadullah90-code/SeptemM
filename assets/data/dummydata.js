@@ -6,7 +6,7 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "8+ years of market experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "100+ Successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -135,7 +135,7 @@ export const showcase = [
      {
     id: 5,
     title: "Bisma Asif – Clinical Psychologist  ",
-    cover: "../images/7.jpg",
+    cover: "../images/hi 2.jpg",
     catgeory: "Digital Strategy, Content Creation & Brand Design	",
     instagram: "https://www.instagram.com/bisma.clinicalpsychologist?igsh=bWpwNXNua3MxeW0w"
   },
@@ -153,16 +153,10 @@ export const showcase = [
     catgeory: "Social Media Management, Pre-Launch Hype, Launch Campaign, Graphics & Video Editing	",
     instagram: "https://www.instagram.com/meritimepk?igsh=MXExMHdja3lmMWk2ag=="
   },
-  {
-    id: 8,
-    title: "Alif Farms ",
-    catgeory: "Meat & Animal Sales (Reels, Marketing, Strategy)",
-    cover: "../images/farm.jpg",
-    instagram: "https://www.instagram.com/aliffarmspakistan?igsh=ZW8wbHExMm5zaHgy"
-  },
+
 
   {
-    id: 9,
+    id: 8,
     title: "Intex Pakistan ",
     cover: "../images/12.jpg",
     catgeory: "Social Media Management, Marketing, Shopify Store Development",
@@ -321,31 +315,84 @@ export const websiteProjects = [
     link: "https://intexpk.store/",
   },
 ];
+// dummydata.js
 export const modelData = [
   {
     id: 1,
-    name: "Ayesha Khan",
-    height: "5'7\"",
-    age: 24,
+    name: "Mahira Khan",
+    height: "5'6\"",
+    age: 23,
     city: "Lahore",
-    image: "https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTgwODY5MjM3ODM2MTYyMTM2/pakistans-15-most-popular-female-fashion-models.jpg",
+    image: "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg", // main image
+    images: [                        // extra images
+      "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg",
+      "/images/sana-2.jpg",
+      "/images/sana-3.jpg"
+    ]
   },
   {
     id: 2,
-    name: "Fatima Rizvi",
-    height: "5'5\"",
-    age: 22,
+    name: "Areeba Malik",
+    height: "5'4\"",
+    age: 21,
     city: "Karachi",
-    image: "https://deeya.co.uk/wp-content/uploads/2021/05/Picture1.png",
+    image: "/images/areeba-main.jpg",
+    images: [
+      "/images/areeba-1.jpg",
+      "/images/areeba-2.jpg",
+      "/images/areeba-3.jpg"
+    ]
+  },
+   {
+    id: 1,
+    name: "Mahira Khan",
+    height: "5'6\"",
+    age: 23,
+    city: "Lahore",
+    image: "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg", // main image
+    images: [                        // extra images
+      "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg",
+      "/images/sana-2.jpg",
+      "/images/sana-3.jpg"
+    ]
   },
   {
-    id: 3,
-    name: "Hira Shah",
+    id: 2,
+    name: "Areeba Malik",
+    height: "5'4\"",
+    age: 21,
+    city: "Karachi",
+    image: "/images/areeba-main.jpg",
+    images: [
+      "/images/areeba-1.jpg",
+      "/images/areeba-2.jpg",
+      "/images/areeba-3.jpg"
+    ]
+  }, {
+    id: 1,
+    name: "Mahira Khan",
     height: "5'6\"",
-    age: 25,
-    city: "Islamabad",
-    image: "https://i.pinimg.com/236x/43/bb/e2/43bbe20a84b247860202bdead252370b.jpg",
+    age: 23,
+    city: "Lahore",
+    image: "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg", // main image
+    images: [                        // extra images
+      "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg",
+      "/images/sana-2.jpg",
+      "/images/sana-3.jpg"
+    ]
   },
+  {
+    id: 2,
+    name: "Areeba Malik",
+    height: "5'4\"",
+    age: 21,
+    city: "Karachi",
+    image: "/images/areeba-main.jpg",
+    images: [
+      "/images/areeba-1.jpg",
+      "/images/areeba-2.jpg",
+      "/images/areeba-3.jpg"
+    ]
+  } 
 ];
-
-
+// ======================================
