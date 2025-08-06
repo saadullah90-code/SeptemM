@@ -118,6 +118,13 @@ export const showcase = [
     cover: "../images/farm.jpg",
     instagram: "https://www.instagram.com/aliffarmspakistan?igsh=ZW8wbHExMm5zaHgy"
   },
+      {
+    id: 2,
+    title: "Mahreen Humayun",
+    catgeory: "Fasihon & Branding (Reels, Marketing, Strategy)",
+    cover: "../images/mahreen2.png",
+    instagram: "https://www.instagram.com/aliffarmspakistan?igsh=ZW8wbHExMm5zaHgy"
+  },
     {
     id: 3,
     title: "Skinology",
@@ -319,28 +326,30 @@ export const websiteProjects = [
 export const modelData = [
   {
     id: 1,
-    name: "Mahira Khan",
-    height: "5'6\"",
-    age: 23,
+    name: "Muhammad Aurangzeb",
+    height: "5'9\"",
+    age: 31,
     city: "Lahore",
-    image: "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg", // main image
+    image: "../images/modelmen (3).jpeg", // main image
     images: [                        // extra images
-      "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg",
-      "/images/sana-2.jpg",
-      "/images/sana-3.jpg"
+      "../images/modelmen (1).jpeg",
+      "../images/modelmen (2).jpeg",
+      "../images/modelmen (4).jpeg",
+      "../images/modelmen (5).jpeg",
+      "../images/modelmen (6).jpeg",
     ]
   },
   {
     id: 2,
-    name: "Areeba Malik",
+    name: "Ahmad Afzaal",
     height: "5'4\"",
-    age: 21,
-    city: "Karachi",
-    image: "/images/areeba-main.jpg",
+    age: 23,
+    city: "Lahore",
+    image: "../images/ahmed3.jpeg",
     images: [
-      "/images/areeba-1.jpg",
-      "/images/areeba-2.jpg",
-      "/images/areeba-3.jpg"
+      "../images/ahmed1.jpeg",
+      "../images/ahmed2.jpeg",
+      "../images/ahmed4.jpeg"
     ]
   },
    {

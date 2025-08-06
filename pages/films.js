@@ -1,10 +1,14 @@
 import YouTubeSection from '@/components/YouTubeSection';
+import Head from "next/head"
 
 const FilmsPage = () => {
   return (
-    <div>
-      <YouTubeSection />
-    </div>
+    <>
+   <Head>
+        <title>Films Septem</title>
+      </Head>
+      <YouTubeSection/>
+      </>
   );
 };
 

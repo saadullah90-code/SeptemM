@@ -1,9 +1,14 @@
 import ModelCard from "@/components/ModelCard";
 import { modelData } from "@/assets/data/dummydata";
 
+
+
+
 const ModelsPage = () => {
   return (
-    <section style={{ background: "#000", padding: "60px 20px", minHeight: "100vh" }}>
+
+    
+    <section style={{ background: "#080E10", padding: "60px 20px", minHeight: "100vh" }}>
       <h2 style={{
         textAlign: "center",
         fontSize: "42px",

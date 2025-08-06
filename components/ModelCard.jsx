@@ -43,8 +43,33 @@
 
 // export default ModelCard;
 
+// import { useRouter } from "next/router";
+// import { useState, useRef, useEffect } from "react";
+
+// const ModelCard = ({ model }) => {
+//   const router = useRouter();
+
+//   const handleViewModel = () => {
+//     router.push(`/models/${model.id}`);
+//   };
+
+//   return (
+//     <div className="model-card">
+//       <img src={model.image} alt={model.name} className="model-image" />
+
+//       <div className="model-content">
+//         <h3 className="model-name">{model.name}</h3>
+//         <button className="model-button" onClick={handleViewModel}>
+//           View Model
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default ModelCard;
+
 import { useRouter } from "next/router";
-import { useState, useRef, useEffect } from "react";
 
 const ModelCard = ({ model }) => {
   const router = useRouter();
@@ -54,18 +79,19 @@ const ModelCard = ({ model }) => {
   };
 
   return (
-    <div className="model-card">
-      <img src={model.image} alt={model.name} className="model-image" />
-
-      <div className="model-content">
-        <h3 className="model-name">{model.name}</h3>
-        <button className="model-button" onClick={handleViewModel}>
-          View Model
-        </button>
+    <div style={{ textAlign: "center" }}>
+      {/* Card with Image only */}
+      <div className="model-card">
+        <img src={model.image} alt={model.name} className="model-image" />
       </div>
+
+      {/* Name and Button Outside the Card */}
+      <h3 className="model-name" style={{ marginTop: "16px" }}>{model.name}</h3>
+      <button className="model-button" onClick={handleViewModel}>
+        View Model
+      </button>
     </div>
   );
 };
 
 export default ModelCard;
-

@@ -36,13 +36,13 @@ extend a very warm welcome!</p> <p className='desc-p'>At Septem Media & Studio, 
               </div>
             </div>
             <div className='right w-40 ml'>
-              <img src='/images/ayjay.png' alt='Img' className='round' width='100%' height='80%' />
+              <img src='/images/ayjay.png' alt='Img' className='round' width='200%' height='100%' />
             </div>
           </div>
 
           <div className='content flex'>
             <div className='left w-40 py'>
-              <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/logos.png' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
               <TitleSm title='Our mission & vision' />

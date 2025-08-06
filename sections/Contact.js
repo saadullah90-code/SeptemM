@@ -1,10 +1,12 @@
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillBehanceCircle, AiFillInstagram, AiFillYoutube } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
+import Link from "next/link"
+
 
 const Contact = () => {
   return (
@@ -29,29 +31,29 @@ const Contact = () => {
                   <h3>MODEL TOWN</h3>
                   <span>McDonald's street, Model Town Link Rd, G.E.C.H.S. Phase 2, Lahore, 54600, Pakistan</span>
                 </div>
-                {/* <div className='box'>
-                  <FiHelpCircle size={30} className='icons' />
-                  <h3>info@dream-theme.com</h3>
-                  <span>Drop us a line anytime!</span>
-                </div> */}
+
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@dream-theme.com</h3>
+                  <h3>septemoriginal@gmail.com</h3>
                   <span>Career at SEPTEM MEDIA</span>
                 </div>
               </div>
               <ul>
                 <li className='icon'>
-                  <BsFacebook size={25} />
+                  <Link href="https://www.facebook.com/share/1Byq6Ycdyx/" target="_blank">
+              <BsFacebook size={30} />
+            </Link>
+                </li>
+                
+                <li className='icon'>
+                  <Link href="https://www.instagram.com/septemmedia?igsh=eTk5cWp1ZDc2bGYw" target="_blank">
+              <AiFillInstagram size={35} />
+            </Link>
                 </li>
                 <li className='icon'>
-                  <AiFillBehanceCircle size={25} />
-                </li>
-                <li className='icon'>
-                  <AiFillInstagram size={25} />
-                </li>
-                <li className='icon'>
-                  <AiFillLinkedin size={25} />
+                   <Link href='https://youtube.com/@septemoriginal?si=rQ9OsMxvB0x9vLBf' target='_blank'>
+        <AiFillYoutube size={35} />
+      </Link>
                 </li>
               </ul>
             </div>
