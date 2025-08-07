@@ -10,14 +10,14 @@ const OurStudioSection = () => {
           {/* <h5 className="gradient-heading">OUR STUDIO</h5> */}
           <h1 className="gradient-heading">Where Creativity Meets Production</h1>
           <p className="studio-description">
-            Welcome to Septem Studio — your creative playground in the heart of Model Town, Lahore. Designed for photographers, filmmakers, influencers, and content creators, our studio is a professional space built to meet the demands of modern production.
+            Welcome to Septem Studio your creative playground in the heart of Model Town, Lahore. Designed for photographers, filmmakers, influencers, and content creators, our studio is a professional space built to meet the demands of modern production.
           </p>
         </div>
 
         {/* Features Section */}
         <div className="studio-content">
           <div className="studio-left">
-            <h2 className="studio-heading gradient-heading">What’s Included:</h2>
+            <h2 className="studio-heading gradient-heading">What’s Included ?</h2>
 
             <div className="studio-features">
               <div className="feature-box">

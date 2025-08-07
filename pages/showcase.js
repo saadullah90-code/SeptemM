@@ -6,7 +6,7 @@ const showcase = () => {
   return (
     <>
       <Head>
-        <title>ShowCase - Septem</title>
+        <title>Our Clients- Septem</title>
       </Head>
       <ShowCase />
     </>

@@ -353,7 +353,7 @@ export const modelData = [
     ]
   },
    {
-    id: 1,
+    id: 3,
     name: "Mahira Khan",
     height: "5'6\"",
     age: 23,
@@ -365,43 +365,6 @@ export const modelData = [
       "/images/sana-3.jpg"
     ]
   },
-  {
-    id: 2,
-    name: "Areeba Malik",
-    height: "5'4\"",
-    age: 21,
-    city: "Karachi",
-    image: "/images/areeba-main.jpg",
-    images: [
-      "/images/areeba-1.jpg",
-      "/images/areeba-2.jpg",
-      "/images/areeba-3.jpg"
-    ]
-  }, {
-    id: 1,
-    name: "Mahira Khan",
-    height: "5'6\"",
-    age: 23,
-    city: "Lahore",
-    image: "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg", // main image
-    images: [                        // extra images
-      "https://i.pinimg.com/474x/00/ab/69/00ab6955e31f642a35f28aa58808d7a9.jpg",
-      "/images/sana-2.jpg",
-      "/images/sana-3.jpg"
-    ]
-  },
-  {
-    id: 2,
-    name: "Areeba Malik",
-    height: "5'4\"",
-    age: 21,
-    city: "Karachi",
-    image: "/images/areeba-main.jpg",
-    images: [
-      "/images/areeba-1.jpg",
-      "/images/areeba-2.jpg",
-      "/images/areeba-3.jpg"
-    ]
-  } 
+  
 ];
 // ======================================
