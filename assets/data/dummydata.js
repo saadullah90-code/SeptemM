@@ -120,8 +120,8 @@ export const showcase = [
   },
       {
     id: 2,
-    title: "Mahreen Humayun",
-    catgeory: "Fasihon & Branding (Reels, Marketing, Strategy)",
+    title: "Mehreen Humayun",
+    catgeory: "Fashion & Branding (Reels, Marketing, Strategy)",
     cover: "../images/mahreen2.png",
     instagram: "https://www.instagram.com/aliffarmspakistan?igsh=ZW8wbHExMm5zaHgy"
   },
