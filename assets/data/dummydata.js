@@ -153,6 +153,13 @@ export const showcase = [
   catgeory: "Political-Themed Cloud Kitchen (Branding, Marketing, Video Content)",
   instagram: "https://www.instagram.com/saucekoizzatdo/?igsh=MXBod2pocmM2bGtpcw%3D%3D#"
 },
+  {
+    id: 9,
+    title: "Moraglame Skin Care",
+    cover: "../images/moraglamelogo.png",
+    catgeory: "Shopify Store Development, Marketing, Social Media Management",
+    instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
+  },
    {
     id: 7,
     title: "Meritime",
@@ -168,13 +175,6 @@ export const showcase = [
     cover: "../images/12.jpg",
     catgeory: "Social Media Management, Marketing, Shopify Store Development",
     instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
-  },
-  {
-    id: 9,
-    title: "Moraglame Skin Care",
-    cover: "../images/moraglamelogo.png",
-    catgeory: "Shopify Store Development, Marketing, Social Media Management",
-    instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
   },
 
 
