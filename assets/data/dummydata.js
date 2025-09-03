@@ -169,7 +169,13 @@ export const showcase = [
     catgeory: "Social Media Management, Marketing, Shopify Store Development",
     instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
   },
-
+  {
+    id: 9,
+    title: "Moraglame Skin Care",
+    cover: "../images/moraglamelogo.png",
+    catgeory: "Shopify Store Development, Marketing, Social Media Management",
+    instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
+  },
 
 
 ]
