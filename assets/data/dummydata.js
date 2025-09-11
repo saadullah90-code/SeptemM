@@ -154,14 +154,28 @@ export const showcase = [
   instagram: "https://www.instagram.com/saucekoizzatdo/?igsh=MXBod2pocmM2bGtpcw%3D%3D#"
 },
   {
-    id: 9,
+    id: 7,
     title: "Moraglame Skin Care",
     cover: "../images/moraglamelogo.png",
     catgeory: "Shopify Store Development, Marketing, Social Media Management",
     instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
   },
+    {
+    id: 8,
+    title: "Muhammadan International High School",
+    cover: "../images/Mihs.jpg",
+    catgeory: "Shopify Store Development, Marketing, Social Media Management, Video Edits & Graphics ",
+    // instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
+  },
+      {
+    id: 9,
+    title: "Rameen Welfare Foundation",
+    cover: "../images/rwf.jpg",
+    catgeory: "Shopify Store Development, Marketing, Social Media Management, Video Edits & Graphics ",
+    // instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
+  },
    {
-    id: 7,
+    id: 10,
     title: "Meritime",
     cover: "../images/meri.jpg",
     catgeory: "Social Media Management, Pre-Launch Hype, Launch Campaign, Graphics & Video Editing	",
@@ -170,11 +184,11 @@ export const showcase = [
 
 
   {
-    id: 8,
+    id: 11,
     title: "Intex Pakistan ",
     cover: "../images/12.jpg",
     catgeory: "Social Media Management, Marketing, Shopify Store Development",
-    instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
+    // instagram: "https://www.facebook.com/people/The-Brand-Company/61556253843945/"
   },
 
 
