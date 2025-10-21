@@ -125,6 +125,13 @@ export const showcase = [
     cover: "../images/mahreen2.png",
     instagram: "https://www.instagram.com/mehreenhumayunofficial/"
   },
+        {
+    id: 2,
+    title: "Reshm Weavers",
+    catgeory: "Fashion & Branding,Shopify Store Management, Graphics, Marketing & Social Media)",
+    cover: "../images/reshm.png",
+    instagram: "https://www.instagram.com/reshmweavers/"
+  },
     {
     id: 3,
     title: "Skinology",
@@ -139,12 +146,26 @@ export const showcase = [
     catgeory: "Shopify Store Management, Graphics, Marketing & Social Media	",
     instagram: "https://www.instagram.com/cliknpick_pk?igsh=MXFpMmp2MmZhY3lscQ=="
   },
+      {
+    id: 4,
+    title: "Ali Wahab Builders",
+    cover: "../images/builder.png",
+    catgeory: "Social Media Management, Video Editing & Creative Assets	",
+    // instagram: "https://www.instagram.com/cliknpick_pk?igsh=MXFpMmp2MmZhY3lscQ=="
+  },
      {
     id: 5,
     title: "Bisma Asif – Clinical Psychologist  ",
     cover: "../images/hi 2.jpg",
     catgeory: "Digital Strategy, Content Creation & Brand Design	",
     instagram: "https://www.instagram.com/bisma.clinicalpsychologist?igsh=bWpwNXNua3MxeW0w"
+  },
+       {
+    id: 5,
+    title: "Dr. Awais Habib ",
+    cover: "../images/dr.png",
+    catgeory: "Digital Strategy, Content Creation & Brand Design	",
+    instagram: "https://www.instagram.com/dr.awaishabib/"
   },
   {
   id: 6,
@@ -155,7 +176,7 @@ export const showcase = [
 },
   {
     id: 7,
-    title: "Moraglame Skin Care",
+    title: "Moraglame",
     cover: "../images/moraglamelogo.png",
     catgeory: "Shopify Store Development, Marketing, Social Media Management",
     instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
@@ -164,15 +185,22 @@ export const showcase = [
     id: 8,
     title: "Muhammadan International High School",
     cover: "../images/Mihs.jpg",
-    catgeory: "Shopify Store Development, Marketing, Social Media Management, Video Edits & Graphics ",
-    // instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
+    catgeory: "Marketing, Social Media Management, Video Edits & Graphics ",
+    instagram: "https://www.instagram.com/mihs_shahjamal/"
   },
       {
     id: 9,
     title: "Rameen Welfare Foundation",
     cover: "../images/rwf.jpg",
-    catgeory: "Shopify Store Development, Marketing, Social Media Management, Video Edits & Graphics ",
-    // instagram: "https://www.instagram.com/moraglame.official?igsh=emc3dHcxa3lycXV2"
+    catgeory: "Marketing, Social Media Management, Video Edits & Graphics ",
+    instagram: "https://www.instagram.com/rameenwelfarefoundation/"
+  },
+        {
+    id: 9,
+    title: "Rameen Media Solution",
+    cover: "../images/rms.jpg",
+    catgeory: "Marketing, Social Media Management, Video Edits & Graphics ",
+    instagram: "https://www.instagram.com/rameenmediasolutions/"
   },
    {
     id: 10,
