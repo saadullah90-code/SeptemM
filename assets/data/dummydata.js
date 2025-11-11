@@ -151,7 +151,7 @@ export const showcase = [
     title: "Ali Wahab Builders",
     cover: "../images/builder.png",
     catgeory: "Social Media Management, Video Editing & Creative Assets	",
-    // instagram: "https://www.instagram.com/cliknpick_pk?igsh=MXFpMmp2MmZhY3lscQ=="
+    instagram: "https://www.instagram.com/aliwahabbuilders/"
   },
      {
     id: 5,
