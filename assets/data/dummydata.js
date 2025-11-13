@@ -416,3 +416,32 @@ export const modelData = [
   
 ];
 // ======================================
+export const pricingData = [
+  {
+    section: "Shopify Store",
+    plans: [
+      { title: "Starter Store", price: "30,000 Pkr",period: "/month", features: ["1 Basic store setup & standard theme customization", "Upto 10 products added", "Paymeny Gateway setup","Basic SEO (title & description)", "Clean homepage layout + mobile optimized design","Basic store management"] },
+      { title: "Growth Store", price: "50,000 Pkr", features: ["Full store setup with advanced theme customization", "Upto 25 products + varients & collections", "Shopify apps integration (reviews, upsells tools)","SEO for product & collection pages","Store management (inventory, orders, updates)","CTA banners, branded layout, trust visuals"] },
+      { title: "Advance Store", price: "80,000 Pkr", features: ["Custom design, brand focused store", "50+ products with filters & mega menus", "Full Shopify apps suits (chat, tracking, reviews)","Advanced SEO & blog optimization","Complete store management + monthly reporting","Sales driven layout with CTAs, animations & UX focus"] },
+    ],
+  },
+   {
+    section: "Social Media Marketing",
+    plans: [
+      { title: "Starter Spark", price: "50,000 Pkr",period: "/Month", features: ["12 Post + 8 Reels", "Profile Optimization & Content Calender", "Basic Ad Strategy","Sales Funnel Suggestions","1 Platform (Instagram or Facebook)"] },
+      { title: "Growth Engine", price: "75,000 Pkr",period: "/Month", features: ["16 Post + 12 Reels", "Bi-weekly Story Design & Monthly Strategy", "Ad Campaign Planning","Sales Funnel Support","2 Platform (Instagram + Facebook/Tiktok)","Shopify Store Management"] },
+      { title: "Brand Domination", price: "10,0000 Pkr",period: "/Month", features: ["20+ Posts + Reels","Advanced Ad Strategy", "Daily Stories & Full Strategy", "Sales Funnel Optimization","Shopify Store Management","3 Platform (Instagram,Facebook/Tiktok)"] },
+    ],
+  },
+  {
+    section: "Content Creation Services",
+    plans: [
+      { title: "Photography Videography", price: "5,000 Pkr", period: "/Per Article", features: ["Fashion, Product, Brand ", "Short form Vertical Reel (15-30s)","Color Grading & Editing", "Studio Access with Lights Backdrops (8ft x 14ft)","Wifi, Car Parking, Bathroom & Basic Outdoor Area Access"] },
+      { title: "Studio Rental", price: "5,000 Pkr",period: "/Per Hour", features: ["Fully Equipped Studio", "Studio Lighting", "White & Orange Backdrops (8ft x 14ft) ","Wifi","Car Parking","Bathroom","Basic Outdoor Area Access"] },
+      { title: "Full Scale Production", price: "Custom Price",period: "/Project Base", features: [ "We Offer : TV & Digital Ads", "Branded Documentaries", "Short Films","Interviews & BTS","Campaign Films & Launch Video","Whats Included ?","Concepts & Scripting","Professional Direction & Cinematography", "Cast & Crew Management","Studio/Location Access","Editing, Color Grading & Sound Design"," Voiceover, Subtitles"] },
+    ],
+  },
+ 
+];
+
+

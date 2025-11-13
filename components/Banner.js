@@ -2,6 +2,8 @@
 
 // export default Banner;
 import React, { useEffect, useRef, useState } from "react";
+import { pricingData } from "@/assets/data/dummydata";
+
 import { Title, TitleLogo } from "./common/Title";
 
 const Counter = ({ target, label, delay }) => {
@@ -41,6 +43,7 @@ const Counter = ({ target, label, delay }) => {
 
 const Banner = () => {
   return (
+    <>
   <section className="banner-section">
   <div className="banner-container">
     <div className="banner-content">
@@ -58,6 +61,39 @@ const Banner = () => {
     </div>
   </div>
 </section>
+
+     <section className="pricing-section">
+      <div className="pricing-container">
+        <h1 className="pricing-main-title">OUR PLANS</h1>
+        {pricingData.map((section, idx) => (
+          <div key={idx} className="pricing-category">
+            <h2 className="pricing-title">{section.section}</h2>
+            <div className="pricing-cards">
+              {section.plans.map((plan, index) => (
+                <div key={index} className="pricing-card">
+                  <h3 className="pricing-card-title">{plan.title}</h3>
+<p className="price">
+  {plan.price}
+  {plan.period && <span className="per-period">{plan.period}</span>}
+</p>
+
+                  <ul className="pricing-features">
+                    {plan.features.map((f, i) => (
+                      <li key={i}>{f}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  
+
+
+
+</>
   );
 };
 
