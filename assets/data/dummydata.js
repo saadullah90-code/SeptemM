@@ -430,7 +430,7 @@ export const pricingData = [
     plans: [
       { title: "Starter Spark", price: "50,000 Pkr",period: "/Month", features: ["12 Post + 8 Reels", "Profile Optimization & Content Calender", "Basic Ad Strategy","Sales Funnel Suggestions","1 Platform (Instagram or Facebook)"] },
       { title: "Growth Engine", price: "75,000 Pkr",period: "/Month", features: ["16 Post + 12 Reels", "Bi-weekly Story Design & Monthly Strategy", "Ad Campaign Planning","Sales Funnel Support","2 Platform (Instagram + Facebook/Tiktok)","Shopify Store Management"] },
-      { title: "Brand Domination", price: "10,0000 Pkr",period: "/Month", features: ["20+ Posts + Reels","Advanced Ad Strategy", "Daily Stories & Full Strategy", "Sales Funnel Optimization","Shopify Store Management","3 Platform (Instagram,Facebook/Tiktok)"] },
+      { title: "Brand Domination", price: "100,000 Pkr",period: "/Month", features: ["20+ Posts + Reels","Advanced Ad Strategy", "Daily Stories & Full Strategy", "Sales Funnel Optimization","Shopify Store Management","3 Platform (Instagram,Facebook/Tiktok)"] },
     ],
   },
   {
