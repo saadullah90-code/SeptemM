@@ -100,7 +100,7 @@ const Header = () => {
         <div className="logo-left">
           <Link href="/">
             <Image
-              src="/images/seplogo2.png"
+              src="/images/seplogo.png"
               alt="Media Septem Logo"
               width={180}
               height={80}

@@ -14,7 +14,7 @@ const ModelsPage = () => {
         fontSize: "42px",
         marginBottom: "40px",
         fontWeight: "bold",
-        color: "#f2ae1c",
+        color: "#fd84fc",
         fontFamily: "Poppins, sans-serif"
       }}>
         Models
