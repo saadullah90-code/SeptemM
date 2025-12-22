@@ -27,7 +27,7 @@
   @media (max-width: 768px) {
     &::before {
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-        url("/images/sepmobile.jpg"); // ✅ Mobile image
+        url("/images/backgroundimage.jpg"); // ✅ Mobile image
       background-size: cover;
       background-position: center top;
       background-repeat: no-repeat;
@@ -359,7 +359,7 @@ footer {
       rgba(0, 0, 0, 0.1), 
       rgba(0, 0, 0, 0.1)
     ),
-    url("../assets/images/footerBanner.png");
+    url("../assets/images/sepfooter.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1316,7 +1316,7 @@ a:hover {
 @media (max-width: 1024px) {
   .hero-logo h1 {
     font-size: 80px;
-    -webkit-text-stroke: 1.5px #f2ae1c;
+    -webkit-text-stroke: 1.5px #fd84fc;
     gap: 10px;
     flex-direction: column;
   }
@@ -1334,7 +1334,7 @@ a:hover {
 @media (max-width: 768px) {
   .hero-logo h1 {
     font-size: 60px;
-    -webkit-text-stroke: 1px #f2ae1c;
+    -webkit-text-stroke: 1px #fd84fc;
     flex-direction: column;
     gap: 5px;
   }
@@ -1361,7 +1361,7 @@ a:hover {
 
   .hero-logo h1 {
     font-size: 48px;
-    -webkit-text-stroke: 1px #f2ae1c;
+    -webkit-text-stroke: 1px #fd84fc;
     flex-direction: column;
     margin-top: 0;
     gap: 4px;
@@ -1435,7 +1435,7 @@ a:hover {
 @media (max-width: 480px) {
   .hero-logo h1 {
     font-size: 60px; /* ✅ Increased from 48px to 60px */
-    -webkit-text-stroke: 1px #f2ae1c;
+    -webkit-text-stroke: 1px #fd84fc;
     flex-direction: column;
     margin-top: 0;
     gap: 4px;
@@ -2826,3 +2826,4 @@ a:hover {
     font-size: 1.8rem;
   }
 }
+

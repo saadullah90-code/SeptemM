@@ -278,7 +278,7 @@ const BlogCard = () => {
         }
 
         .view-btn {
-          background: linear-gradient(90deg, #ffde59, #f2ae1c);
+          background: linear-gradient(135deg, #fd84fc 0%, #e56bff 50%, #b517ff 100%);
           color: black;
           padding: 12px 20px;
           border: none;
@@ -290,7 +290,7 @@ const BlogCard = () => {
         }
 
         .view-btn:hover {
-          background: linear-gradient(90deg, #f2ae1c, #ffde59);
+          background: linear-gradient(135deg, #fd84fc 0%, #e56bff 50%, #b517ff 100%);
           transform: scale(1.05);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }

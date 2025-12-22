@@ -25,19 +25,19 @@ export const home = [
     {
       id: 1,
       title: "Web Design & Development",
-      cover: "../images/websiteDevelopment.jpg",
+      cover: "https://i.pinimg.com/1200x/10/4b/c0/104bc0000c05e5092c378bd1c2077163.jpg",
       desc: [{ text: "Lightning-fast websites and eCommerce experiences that convert and captivate." }],
     },
     {
       id: 2,
       title: "Social Media Management",
-      cover: "../images/SocialMedia.jpg",
+      cover: "https://i.pinimg.com/1200x/e7/57/79/e75779d591acf26274ba57576c3125f0.jpg",
       desc: [{ text: "Content, strategy, consistency — done for you, done right." }],
     },
     {
       id: 3,
       title: "Shopify Store Management & Development",
-      cover: "../images/ShopifyScreen.jpg",
+      cover: "https://i.pinimg.com/1200x/90/2f/d8/902fd832631b42f1599a4bcfb6fd3b42.jpg",
       desc: [{ text: "From setup to sales, we design sleek, scalable Shopify stores built for growth." }],
     },
     {
@@ -49,7 +49,7 @@ export const home = [
     {
       id: 5,
       title: "Brand & Graphic Design ",
-      cover: "../images/GraphicDesign.jpg",
+      cover: "https://i.pinimg.com/1200x/58/77/63/58776395152d8758457f2e23bc23ea63.jpg",
       desc: [{ text: "Logos, identities, and visuals that make your brand impossible to ignore." }],
     },
     {
@@ -61,13 +61,13 @@ export const home = [
     {
       id: 7,
       title: "Fashion & Product Shoots",
-      cover: "../images/ProductShoot.jpg",
+      cover: "https://i.pinimg.com/736x/7e/74/79/7e747915992043d49f98a9ce6cbab031.jpg",
       desc: [{ text: "Camera-ready content made to sell — bold, styled, and on-brand." }],
     },
     {
       id: 8,
       title: "Digital Marketing",
-      cover: "../images/digital.jpeg",
+      cover: "https://i.pinimg.com/736x/b1/bb/ac/b1bbac1e29f08c1c7b5fa1cdb8d5aebb.jpg",
       desc: [{ text: "Performance-driven digital marketing campaigns boost visibility, clicks, and conversions through Social Media Marketing, SEO, Google Ads, and Email Marketing, leveraging a data-driven approach for measurable results." }],
     },
   
@@ -298,43 +298,43 @@ export const teamdata = [
   {
     id: 1,
     title: "AY JAY",
-    cover: "../images/ayjay123.png",
+    cover: "../images/team.png",
     post: "FOUNDER, CEO",
   },
   {
     id: 2,
     title: "ASAD CHOUDHRY",
-    cover: "../images/asad.png",
+    cover: "../images/team4.png",
     post: "Digital Marketer",
   },
   {
     id: 3,
     title: "REHAB AMJAD",
-    cover: "../images/rehab.png",
+    cover: "../images/team6.png",
     post: "Social Media Manager",
   },
   {
     id: 4,
     title: "Engr. SAAD SIDDIQUI",
-    cover: "../images/saad.png",
+    cover: "../images/team5.png",
     post: "Full Stack & Shopify Developer",
   },
   {
     id: 5,
     title: "IBRAHIM DANISH",
-    cover: "../images/ibrahim.png",
+    cover: "../images/team3.png",
     post: "Video Editor",
   },
   {
     id: 6,
     title: "SHERJEEL AWAN",
-    cover: "../images/sherjeel.png",
+    cover: "../images/team2.png",
     post: "Cinematographer",
   },
   {
     id: 7,
     title: "M. AFZAL",
-    cover: "../images/afzal.png",
+    cover: "../images/afzalteam.png",
     post: "DOP",
   },
   
