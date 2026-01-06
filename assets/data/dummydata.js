@@ -67,7 +67,7 @@ export const home = [
     {
       id: 8,
       title: "Digital Marketing",
-      cover: "https://i.pinimg.com/736x/b1/bb/ac/b1bbac1e29f08c1c7b5fa1cdb8d5aebb.jpg",
+      cover: "https://i.pinimg.com/736x/f9/47/45/f94745921e7e5690f8de02aca6a353b7.jpg",
       desc: [{ text: "Performance-driven digital marketing campaigns boost visibility, clicks, and conversions through Social Media Marketing, SEO, Google Ads, and Email Marketing, leveraging a data-driven approach for measurable results." }],
     },
   
@@ -436,7 +436,7 @@ export const pricingData = [
   {
     section: "Content Creation Services",
     plans: [
-      { title: "Photography Videography", price: "5,000 Pkr", period: "/Per Article", features: ["Fashion, Product, Brand ", "Short form Vertical Reel (15-30s)","Color Grading & Editing", "Studio Access with Lights Backdrops (8ft x 14ft)","Wifi, Car Parking, Bathroom & Basic Outdoor Area Access"] },
+      { title: "Photography Videography", price: "10,000 Pkr", period: "/Per Article", features: ["Fashion, Product, Brand ", "Short form Vertical Reel (15-30s)","Color Grading & Editing", "Studio Access with Lights Backdrops (8ft x 14ft)","Wifi, Car Parking, Bathroom & Basic Outdoor Area Access"] },
       { title: "Studio Rental", price: "5,000 Pkr",period: "/Per Hour", features: ["Fully Equipped Studio", "Studio Lighting", "White & Orange Backdrops (8ft x 14ft) ","Wifi","Car Parking","Bathroom","Basic Outdoor Area Access"] },
       { title: "Full Scale Production", price: "Custom Price",period: "/Project Base", features: [ "We Offer : TV & Digital Ads", "Branded Documentaries", "Short Films","Interviews & BTS","Campaign Films & Launch Video","Whats Included ?","Concepts & Scripting","Professional Direction & Cinematography", "Cast & Crew Management","Studio/Location Access","Editing, Color Grading & Sound Design"," Voiceover, Subtitles"] },
     ],

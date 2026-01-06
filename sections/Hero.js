@@ -79,7 +79,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="hero-sec">
+      {/* <section className="hero-sec">
         <div className="container">
           <div className="hero-content grid-4">
             {home.map((item, i) => (
@@ -91,7 +91,7 @@ const Hero = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Expertise />
       <Banner />
